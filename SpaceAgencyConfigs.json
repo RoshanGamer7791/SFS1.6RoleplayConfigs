@@ -3,7 +3,7 @@
         {
             "name": "Redstar Aerospace",
             "owner": "ssdcat",
-            "type" : "Goverment",
+            "type": "Government",
             "prestige": "5",
             "status": "Active",
             "comms": "Lunar Grade"
@@ -25,7 +25,7 @@
             "comms": "Lunar Grade"
         },
         {
-            "name": "Aerospace Pioneers Agency [APA]",
+            "name": "Aerospace Pioneers Association [APA]",
             "owner": "QMSP",
             "type": "Private",
             "prestige": "3",
@@ -35,7 +35,7 @@
         {
             "name": "Danish Aerospace Agency",
             "owner": "FPE Fan",
-            "type": "Goverment",
+            "type": "Government",
             "prestige": "0",
             "status": "Active",
             "comms": "Normal Comms"
@@ -49,7 +49,7 @@
             "comms": "Normal Comms"
         },
         {
-            "name": "B.A.D.A.S.S",
+            "name": "B.A.D.A.S.S.",
             "owner": "TheMacTester",
             "type": "Private",
             "prestige": "2",
@@ -66,8 +66,32 @@
         },
         {
             "name": "ISAAD",
-            "owner": "AarohanTheAscender/Emperor",
+            "owner": "AarohantheAscender/Emperor",
             "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
+        },
+        {
+            "name": "IAD",
+            "owner": "AarohantheAscender/Emperor",
+            "type": "Subsidiary",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
+        },
+        {
+            "name": "ISD",
+            "owner": "AarohantheAscender/Emperor",
+            "type": "Subsidiary",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
+        },
+        {
+            "name": "SUS",
+            "owner": "AarohantheAscender/Emperor",
+            "type": "Subsidiary",
             "prestige": "0",
             "status": "Active",
             "comms": "Normal Comms"
