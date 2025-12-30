@@ -1,0 +1,68 @@
+{
+    "Space_Agencies": [
+        {
+            "name": "Redstar Aerospace",
+            "owner": "ssdcat",
+            "type" : "Goverment",
+            "prestige": "5",
+            "status": "Active",
+            "comms": "Lunar Grade"
+        },
+        {
+            "name": "Untitled Aerospace Agency",
+            "owner": "ilikespace",
+            "type": "Private",
+            "prestige": "5",
+            "status": "Active",
+            "comms": "Normal Comms"
+        },
+        {
+            "name": "Blue Aerospace",
+            "owner": "Infinix",
+            "type": "Private",
+            "prestige": "2",
+            "status": "Active",
+            "comms": "Lunar Grade"
+        },
+        {
+            "name": "Aerospace Pioneers Agency [APA]",
+            "owner": "QMSP",
+            "type": "Private",
+            "prestige": "3",
+            "status": "Active",
+            "comms": "Normal Comms"
+        },
+        {
+            "name": "Danish Aerospace Agency",
+            "owner": "FPE Fan",
+            "type": "Goverment",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
+        },
+        {
+            "name": "Space Compes First (SCF)",
+            "owner": "J3 Mângo",
+            "type": "Private",
+            "prestige": "4.25",
+            "status": "Leader in Exploration",
+            "comms": "Normal Comms"
+        },
+        {
+            "name": "B.A.D.A.S.S",
+            "owner": "TheMacTester",
+            "type": "Private",
+            "prestige": "2",
+            "status": "Active",
+            "comms": "Normal Comms"
+        }
+        {
+            "name": "ISAAD",
+            "owner": "AarohanTheAscender/Emperor",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
+        }
+    ]
+}
