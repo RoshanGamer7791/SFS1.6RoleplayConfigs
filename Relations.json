@@ -9,6 +9,11 @@
             "name": "Ion Engine Tech Exchange",
             "what": "Infinix allows ssdcat to dock to their station to research ion engine technology and gain access to its use",
             "who": "Infinix, ssdcat"
+        },
+        {
+            "name": "Interplanetary comms support",
+            "what": "ssdcat allows J3 Mângo to use their lunar comms to put their interplanetary communications satellite at a lagrange point and then he would let ssdcat use that afterwards.",
+            "who": "J3 Mângo, ssdcat"
         }
     ]
 }
