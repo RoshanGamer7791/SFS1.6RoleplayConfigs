@@ -184,11 +184,17 @@
             "LaunchNumber": "31",
             "event": "First Orbit for RASA",
             "who": "Roshan Aerospace and Space Agency",
-            "year": "2007"
+            "year": "2008"
         },
         {
             "LaunchNumber": "32",
-            "event": "First crewed Moon Flyby",
+            "event": "Crewed Moon Flyby",
+            "who": "Roshan Aerospace and Space Agency",
+            "year": "2008"
+        },
+        {
+            "LaunchNumber": "33",
+            "event": "Crewed Moon Orbit",
             "who": "Roshan Aerospace and Space Agency",
             "year": "2008"
         }
