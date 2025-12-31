@@ -14,6 +14,11 @@
             "name": "Interplanetary comms support",
             "what": "ssdcat allows J3 Mângo to use their lunar comms to put their interplanetary communications satellite at a lagrange point and then he would let ssdcat use that afterwards.",
             "who": "J3 Mângo, ssdcat, TheMacTester"
+        },
+        {
+            "name": "Lunar comms support",
+            "what": "ssdcat allows TheMacTester to use their lunar comms network.",
+            "who": "ssdcat, TheMacTester"
         }
     ]
 }
