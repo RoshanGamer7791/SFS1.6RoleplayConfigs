@@ -71,6 +71,14 @@
             "prestige": "0",
             "status": "Planned",
             "comms": "Normal Comms"
+        },
+        {
+            "name": "Roshan Aerospace and Space Agency (RASA)",
+            "owner": "Roshan",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
         }
     ]
 }
