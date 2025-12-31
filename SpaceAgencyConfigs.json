@@ -95,14 +95,6 @@
             "prestige": "0",
             "status": "Active",
             "comms": "Normal Comms"
-        },
-        {
-            "name": "Roshan Aerospace and Space Agency",
-            "owner": "Roshan",
-            "type": "Private",
-            "prestige": "0",
-            "status": "Active",
-            "comms": "Normal Comms"
         }
     ]
 }
