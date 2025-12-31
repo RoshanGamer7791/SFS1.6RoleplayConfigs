@@ -149,6 +149,12 @@
             "event": "Deployment of a global Earth-observation satellite into a 1000 km orbit",
             "who": "Danish Aerospace Agency",
             "year": "2006"
+        },
+                {
+            "LaunchNumber": "26",
+            "event": "Lunar comms established",
+            "who": "Nuclide Technologies",
+            "year": "2006"
         }
     ]
 }
