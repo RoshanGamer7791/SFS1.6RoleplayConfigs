@@ -87,6 +87,14 @@
             "prestige": "0",
             "status": "Active",
             "comms": "Normal Comms"
+        },
+        {
+            "name": "NASA",
+            "owner": "serap49",
+            "type": "Government",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
         }
     ]
 }
