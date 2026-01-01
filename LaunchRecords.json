@@ -140,6 +140,7 @@
         },
         {
             "LaunchNumber": "24",
+            "cachebreakplease": true,
             "event": "Ariel II launch",
             "who": "B.A.D.A.s.s",
             "year": "2006"
