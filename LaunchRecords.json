@@ -235,6 +235,12 @@
             "event": "First uncrewed Lunar Landing",
             "who": "Nuclide Technologies",
             "year": "2009"
+        },
+        {
+            "LaunchNumber": "40",
+            "event": "First Venus flyby",
+            "who": "Untitled Aerospace Agency",
+            "year": "2009"
         }
     ]
 }
