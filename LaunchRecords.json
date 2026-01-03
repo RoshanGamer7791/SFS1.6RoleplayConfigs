@@ -184,6 +184,10 @@
     {
       "event": "Venus orbiter, first Venus lander",
       "who": "Untitled Aerospace Agency"
-    }
+    },
+    {
+      "event": "First O-space orbital mission"
+      "who": "O-space"
+    },
   ]
 }
