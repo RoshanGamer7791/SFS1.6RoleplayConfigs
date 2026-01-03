@@ -269,19 +269,19 @@
         {
             "LaunchNumber": "45",
             "event": "Ionic Reaserch, First Microasteroid Observer.",
-            "who": "B.A.D.A.S.S."
+            "who": "B.A.D.A.S.S.",
             "year": "2011"
         },
         {
             "LaunchNumber": "46",
             "event": "Venus orbiter, first Venus lander",
-            "who": "Untitled Aerospace Agency"
+            "who": "Untitled Aerospace Agency",
             "year": "2011"
         },
         {
             "LaunchNumber": "47",
-            "event": "First O-space orbital mission"
-            "who": "O-space"
+            "event": "First O-space orbital mission",
+            "who": "O-space",
             "year": "2011"
         }
     ]
