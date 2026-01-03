@@ -86,8 +86,8 @@
             "type": "Private",
             "prestige": "0",
             "status": "Active",
-            "comms": "Normal Comms"},
-        
+            "comms": "Normal Comms"
+        },        
         {
             "name": "Valruzian Aeronautics and Space Agency (VASA)",
             "owner": "serap49",
@@ -110,8 +110,15 @@
             "type": "Private",
             "prestige": "0",
             "status": "Active",
-            "comms": "Normal Comms",
-            "slogan": "Building the stairs to the future of innovation, one step at a time"
+            "comms": "Normal Comms"
+        },
+        {
+            "name": "O-Space",
+            "owner": "Kankeen13",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
         }
     ]
 }
