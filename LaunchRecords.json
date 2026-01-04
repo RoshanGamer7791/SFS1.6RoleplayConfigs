@@ -194,11 +194,11 @@
             "who": "O-space"
         },
         {
-            "event": "Interplanatary Reciver",
+            "event": "Interplanatary Reciever",
             "who": "B.A.D.A.S.S."
         },
          {
-            "event": "Leto 2B Launch and Service Module Test (result: fail)",
+            "event": "Leto 2B launch and Service Module test (result: fail)",
             "who": "New Dawn Engineering and Aerospace"
         },
          {  
@@ -208,6 +208,14 @@
          {  
             "event": "First Venus lander",
             "who": "Untitled Aerospace Agency"
+        },
+        {
+             "event": "First manned launch for Leto 2",
+             "who": "New Dawn Engineering and Aerospace"
+        },
+        {
+             "event": "First unmanned orbit for Leto 2C, upper stage test",
+             "who": "New Dawn Engineering and Aerospace"
         }
     ]
 }
