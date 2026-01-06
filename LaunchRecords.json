@@ -214,7 +214,7 @@
              "who": "New Dawn Engineering and Aerospace"
         },
         {
-             "event": "First unmanned orbit for Leto 2C, upper stage test",
+             "event": "First unmanned orbit for Hermes-1, upper stage test",
              "who": "New Dawn Engineering and Aerospace"
         },
         {
@@ -224,6 +224,10 @@
         {
              "event": "First crewed Venus flyby, first crew outside of the earths SOI",
              "who": "Untitled Aerospace Agency"
+        },
+        {
+             "event": "First manned launch for Hermes-1 and first docking for New Dawn",
+             "who": "New Dawn Engineering and Aerospace"
         }
     ]
 }
