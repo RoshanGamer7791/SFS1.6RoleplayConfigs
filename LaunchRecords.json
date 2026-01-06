@@ -226,6 +226,14 @@
              "who": "Untitled Aerospace Agency"
         },
         {
+             "event": "First uncrewed Moon flyby for Redstar",
+             "who": "Redstar Aerospace"
+        },
+        {
+             "event": "First uncrewed Moon Orbit for Redstar",
+             "who": "Redstar Aerospace"
+        },
+        {
              "event": "First manned launch for Hermes-1 and first docking for New Dawn",
              "who": "New Dawn Engineering and Aerospace"
         }
