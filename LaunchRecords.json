@@ -252,6 +252,10 @@
         {
              "event": "First unmanned Moon Landing for redstar.",
              "who": "Redstar Aerospace"
+        },
+        {
+             "event": "First Mars flyby",
+             "who": "Untitled Aerospace Agency"
         }
     ]
 }
