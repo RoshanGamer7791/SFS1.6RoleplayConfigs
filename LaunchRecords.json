@@ -250,7 +250,7 @@
              "who": "New Dawn Engineering and Aerospace"
         },
         {
-             "event": "First unmanned Moon Landing for redstar.",
+             "event": "First unmanned Moon Landing for Redstar Aerospace",
              "who": "Redstar Aerospace"
         },
         {
@@ -263,6 +263,10 @@
         },
         {
              "event": "[Failed] Launch of the Polar 1",
+             "who": "Redstar Aerospace"
+        },
+        {
+             "event": "First manned lunar flyby for Redstar Aerospace",
              "who": "Redstar Aerospace"
         }
     ]
