@@ -260,6 +260,10 @@
         {
              "event": "Uncrewed lunar orbiter",
              "who": "Untitled Aerospace Agency"
+        },
+        {
+             "event": "[Failed] Launch of the Polar 1",
+             "who": "Redstar Aerospace"
         }
     ]
 }
