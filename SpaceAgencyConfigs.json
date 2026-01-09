@@ -12,7 +12,7 @@
             "name": "Untitled Aerospace Agency",
             "owner": "ilikespace",
             "type": "Private",
-            "prestige": "7",
+            "prestige": "13",
             "status": "Active",
             "comms": "Interplanetary Comms [Entry]"
         },
@@ -36,12 +36,12 @@
             "name": "Danish Aerospace Agency",
             "owner": "FPE Fan",
             "type": "Government",
-            "prestige": "0",
+            "prestige": "4",
             "status": "Active",
             "comms": "Normal Comms"
         },
         {
-            "name": "Space Compes First (SCF)",
+            "name": "Space Comes First (SCF)",
             "owner": "J3 Mângo",
             "type": "Private",
             "prestige": "4.25",
@@ -77,7 +77,7 @@
             "owner": "Roshan",
             "type": "Private",
             "prestige": "0",
-            "status": "Active",
+            "status": "Inactive",
             "comms": "Lunar Grade"
         },
         {
@@ -107,6 +107,14 @@
         {
             "name": "Chimken Space Research Organization (CSRO)",
             "owner": "Chimken48",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
+        },
+        {   
+            "name": "Canary Industries",
+            "owner": "Geo Boi",
             "type": "Private",
             "prestige": "0",
             "status": "Active",
