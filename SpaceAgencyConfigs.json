@@ -97,14 +97,6 @@
             "comms": "Normal Comms"
         },
         {
-            "name": "Osolan Space Agency",
-            "owner": "Kero",
-            "type": "Government",
-            "prestige": "0",
-            "status": "Active",
-            "comms": "Normal Comms"
-        },
-        {
             "name": "New Dawn Engineering & Aerospace",
             "owner": "SadCashier20",
             "type": "Private",
@@ -113,8 +105,8 @@
             "comms": "Normal Comms"
         },
         {
-            "name": "O-Space",
-            "owner": "Kankeen13",
+            "name": "Chimken Space Research Organization (CSRO)",
+            "owner": "Chimken48",
             "type": "Private",
             "prestige": "0",
             "status": "Active",
