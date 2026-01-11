@@ -108,7 +108,7 @@
             "name": "Chimken Space Research Organization (CSRO)",
             "owner": "Chimken48",
             "type": "Private",
-            "prestige": "0",
+            "prestige": "0.25",
             "status": "Active",
             "comms": "Normal Comms"
         },
