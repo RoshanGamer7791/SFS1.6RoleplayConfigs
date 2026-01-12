@@ -64,6 +64,14 @@
             "status": "Active",
             "comms": "Lunar Grade"
         },
+         {
+            "name": "Chimken Space Research Organization (CSRO)",
+            "owner": "Chimken48",
+            "type": "Private",
+            "prestige": "2.25",
+            "status": "Active",
+            "comms": "Normal Comms"
+        },
         {
             "name": "ISAAD",
             "owner": "AarohantheAscender/Emperor",
@@ -101,14 +109,6 @@
             "owner": "SadCashier20",
             "type": "Private",
             "prestige": "0",
-            "status": "Active",
-            "comms": "Normal Comms"
-        },
-        {
-            "name": "Chimken Space Research Organization (CSRO)",
-            "owner": "Chimken48",
-            "type": "Private",
-            "prestige": "2.25",
             "status": "Active",
             "comms": "Normal Comms"
         },
