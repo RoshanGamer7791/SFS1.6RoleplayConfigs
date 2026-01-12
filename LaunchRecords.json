@@ -332,6 +332,10 @@
         {
             "event": "Crewed lunar landing, used Zaloga Block IIb LV",
             "who": "Untitled Aerospace Agency"
+        },
+        {
+            "event": "Launch of Interplanetary comms Satelite, used Falconete SN-1",
+            "who": "Chimken Space Research Organization"
         }
     ]
 }
