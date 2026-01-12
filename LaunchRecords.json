@@ -322,7 +322,11 @@
             "who": "Redstar Aerospace"
         },
         {
-            "event": "Launch of 6 ChimkenLink Satelites in Low Earth Orbit",
+            "event": "Launch of 6 ChimkenLink Satelites in Low Earth Orbit, used Falconete SN-1",
+            "who": "Chimken Space Research Organization"
+        },
+        {
+            "event": "First Fly-By of Mars for CSRO, used Falconete SN-1",
             "who": "Chimken Space Research Organization"
         }
     ]
