@@ -336,6 +336,10 @@
         {
             "event": "Launch of Interplanetary comms Satelite, used Falconete SN-1",
             "who": "Chimken Space Research Organization"
+        },
+        {
+            "event": "First phobos and deimos landing, orbiting and marsian orbiter, used Ladunek LV",
+            "who": "Untitled Aerospace Agency"
         }
     ]
 }
