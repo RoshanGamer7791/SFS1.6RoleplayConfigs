@@ -344,6 +344,10 @@
         {
             "event": "Launch of 6 ChimkenLink Satelites in LEO, used Falconete SN-1", 
             "who": "Chimken Space Research Organization"
+        },
+        {
+            "event": "Docked Lunar Lab module to Moongate",
+            "who": "Chimken Space Research Organization"
         }
     ]
 }
