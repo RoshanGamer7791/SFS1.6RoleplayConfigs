@@ -29,6 +29,11 @@
             "name": "MoonGate (Lunar Space Station)",
             "what": "MoonGate is a free to dock Lunar Space Station which was launched by ssdcat in 2019",
             "who": "ssdcat, Chimken48, ilikespace"
+        },
+        {
+            "name": "HESTIA (single launch HEO station)",
+            "what": "The HESTIA is a single launch station in HEO, ask permission to dock (1 port only)"
+            "who": "SadCashier20"
         }
     ]
 }
