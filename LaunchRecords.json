@@ -330,6 +330,10 @@
             "who": "Chimken Space Research Organization"
         },
         {
+            "event": "Hermes 2 core stage test"
+            "who": "New Dawn Engineering and Aerospace"
+        },
+        {
             "event": "Crewed lunar landing, used Zaloga Block IIb LV",
             "who": "Untitled Aerospace Agency"
         },
@@ -360,6 +364,10 @@
         {
             "event": "Failed Mars landing, craft burnt during reentry, used Ladunek LV",
             "who": "Untitled Aerospace Agency"
+        },
+        {
+            "event": "Launched Hestia Station to HEO - habitat/workstations built into upperstage"
+            "who": "New Dawn Engineering and Aerospace"
         }
     ]
 }
