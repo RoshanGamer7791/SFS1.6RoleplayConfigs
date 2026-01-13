@@ -368,6 +368,10 @@
         {
             "event": "Launched Hestia Station to HEO - habitat/workstations built into upperstage",
             "who": "New Dawn Engineering and Aerospace"
+        },
+        {
+            "event": "Launched Polar 2 LV for first time - Ended in failure",
+            "who": "Redstar Aerospace"
         }
     ]
 }
