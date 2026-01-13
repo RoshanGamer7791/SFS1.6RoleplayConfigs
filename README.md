@@ -20,3 +20,12 @@ Website: [SFS 1.6 RP](https://sfsnewrp.w3spaces.com/)
 * ssdcat
 * Roshan
 * SadCashier20/captaindawn90315
+
+## ICSA
+The Interplanetary Coordination & Standards Authority (ICSA) is a organization that defines new zones and standards, not a actual agency.
+
+**Orbit Zones**
+Low earth orbit: 30-140km
+Mid earth orbit: 140-300km
+High earth orbit: 300-earth SOIkm
+GEO: 1000km
