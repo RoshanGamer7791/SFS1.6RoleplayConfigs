@@ -372,6 +372,10 @@
         {
             "event": "Launched Polar 2 LV for first time - Ended in failure",
             "who": "Redstar Aerospace"
+        },
+        {
+            "event": "Cub 7 Launch - Launched propulsion module to transport Gaia-1 station to lunar orbit to dock with moongate.",
+            "who": "Redstar Aerospace"
         }
     ]
 }
