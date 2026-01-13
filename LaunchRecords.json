@@ -352,6 +352,10 @@
         {
             "event": "Hera 8 'Longivity' Launched to Lunar orbit",
             "who": "Canary Industries"
+        },
+        {
+            "event": "Launched 8 ChimkenLink V2's in LEO, used Falconete SN-2",
+            "who": "Chimken Space Research Organization"
         }
     ]
 }
