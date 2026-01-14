@@ -376,6 +376,10 @@
         {
             "event": "Cub 7 Launch - Launched propulsion module to transport Gaia-1 station to lunar orbit to dock with moongate.",
             "who": "Redstar Aerospace"
+        },
+        {
+            "event": "Docked Large Solar Panels to MoonGate Space Station",
+            "who": "Chimken Space Research Organization"
         }
     ]
 }
