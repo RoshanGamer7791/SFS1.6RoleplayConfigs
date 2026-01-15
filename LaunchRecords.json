@@ -380,6 +380,18 @@
         {
             "event": "Docked Large Solar Panels to MoonGate Space Station",
             "who": "Chimken Space Research Organization"
+        },
+        {
+            "event": "StarkNav version 2.0 in Low Earth Orbit",
+            "who": "SSAAI"
+        },
+        {
+            "event": "Hera-10 'GroundHog', Landed on the Moon's surface.",
+            "who": "Canary Industries"
+        },
+        {
+            "event": "Launched Hestia Station into LEO, used Hermes LV",
+            "who": "New Dawn Aerospace And Engineering"
         }
     ]
 }
