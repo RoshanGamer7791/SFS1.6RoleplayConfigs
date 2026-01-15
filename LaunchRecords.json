@@ -396,6 +396,10 @@
         {
             "event": "Launched 8 more ChimkenLink v2 sats in LEO, used Falconete SN-2", 
             "who": "Chimken Space Research Organization"
+        },
+        {
+            "event": "First Crew Mission for CSRO, used FireFly LV (Crew)",
+            "who": "Chimken Space Research Organization"
         }
     ]
 }
