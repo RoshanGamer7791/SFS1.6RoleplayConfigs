@@ -404,6 +404,10 @@
         {
             "event": "SWTOP telescope in LEO, used LAHEOPL 1.2",
             "who": "SSAAI"
+        },
+        {
+            "event": "First Mars landing, used Ladunek LV",
+            "who": "Untitled Aerospace Agency"
         }
     ]
 }
