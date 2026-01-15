@@ -400,6 +400,10 @@
         {
             "event": "First Crew Mission for CSRO, used FireFly LV (Crew)",
             "who": "Chimken Space Research Organization"
+        },
+        {
+            "event": "SWTOP telescope in LEO, used LAHEOPL 1.2",
+            "who": "SSAAI"
         }
     ]
 }
