@@ -392,6 +392,10 @@
         {
             "event": "Launched Hestia Station into LEO, used Hermes LV",
             "who": "New Dawn Aerospace And Engineering"
+        },
+        {
+            "event": "Launched 8 more ChimkenLink v2 sats in LEO, used Falconete SN-2", 
+            "who": "Chimken Space Research Organization"
         }
     ]
 }
