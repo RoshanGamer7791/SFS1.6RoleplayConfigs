@@ -1,17 +1,17 @@
 # SFS 1.6 Roleplay Configs
 The configs of the SFS 1.6 roleplay.
 
-# Links
+## Links
 
 Forum thread: [1.6 roleplay](jmnet.one/sfs/forum/index.php?threads/1-6-roleplay.16954/)  
 Discord Server: [1.6 Roleplay Discord Server](https://discord.gg/ZnzxsBcbhJ)   
 Website: [SFS 1.6 RP](https://sfsnewrp.w3spaces.com/)
 
-# Credits
+## Credits
 * Roshan (For making the base to be building ontop of)
 * ssdcat (For allowing Roshan to do this)
 
-# Contributors
+## Contributors
 * ilikespace
 * TheMacTester
 * J3 Mango
@@ -20,6 +20,7 @@ Website: [SFS 1.6 RP](https://sfsnewrp.w3spaces.com/)
 * ssdcat
 * Roshan
 * SadCashier20/captaindawn90315
+* Chimken48
 
 ## ICSA
 The Interplanetary Coordination & Standards Authority (ICSA) is a organization that defines new zones and standards, not a actual agency.
