@@ -428,6 +428,10 @@
         {
             "event": "First Crewed Lunar FlyBy for CSRO, used FireFly LV (Crew)",
             "who": "Chimken Space Research Organization"
+        },
+        {
+            "event": "Launched LFIC to do flyby of moon, used LAHEOPL 1.3",
+            "who": "SSAAI"
         }
     ]
 }
