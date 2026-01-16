@@ -420,6 +420,14 @@
         {
             "event": "He-Relay 3 launched 4 more staelites in Lunar orbit",
             "who": "Canary Industries"
+        },
+        {
+            "event": "Launched LGCSADC into lunar orbit giving SSAAI access to lunar grade comms, used LAHEOPL 1.3",
+            "who": "SSAAI"
+        },
+        {
+            "event": "First Crewed Lunar FlyBy for CSRO, used FireFly LV (Crew)",
+            "who": "Chimken Space Research Organization"
         }
     ]
 }
