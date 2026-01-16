@@ -432,6 +432,14 @@
         {
             "event": "Launched LFIC to do flyby of moon, used LAHEOPL 1.3",
             "who": "SSAAI"
+        },
+        {
+            "event": "Launched He-Relay 4 in lunar orbit",
+            "who": "Canary Industries"
+        },
+        {
+            "event": "Docked 3 Astronauts to MoonGate (space station) First crewed Dock for CSRO",
+            "who": "Chimken Space Research Organization"
         }
     ]
 }
