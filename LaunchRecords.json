@@ -416,6 +416,10 @@
         {
             "event": "Launch of EMSASRS SSAAI's First HEO satelite, used LAHEOPL 1.3",
             "who": "SSAAI"
+        },
+        {
+            "event": "He-Relay 3 launched 4 more staelites in Lunar orbit",
+            "who": "Canary Industries"
         }
     ]
 }
