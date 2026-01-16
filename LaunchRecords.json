@@ -408,6 +408,14 @@
         {
             "event": "First Mars landing, used Ladunek LV",
             "who": "Untitled Aerospace Agency"
+        },
+        {
+            "event": "He-Relay 2 launched into VHLO",
+            "who": "Canary Industries"
+        },
+        {
+            "event": "Launch of EMSASRS SSAAI's First HEO satelite, used LAHEOPL 1.3",
+            "who": "SSAAI"
         }
     ]
 }
