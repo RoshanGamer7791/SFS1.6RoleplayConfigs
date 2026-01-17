@@ -382,7 +382,7 @@
             "who": "Chimken Space Research Organization"
         },
         {
-            "event": "StarkNav version 2.0 in Low Earth Orbit, used LAHEOPL 1.1.",
+            "event": "StarkNav version 2.0 in Low Earth Orbit, used LAHEOPL 1.1. First Launch and Orbit for SSAAI.",
             "who": "SSAAI"
         },
         {
@@ -456,6 +456,10 @@
         {
             "event": "Landed 'Chandra-X' on the Moon, used Falconete-Heavy. First Lunar Landing for CSRO",
             "who": "Chimken Space Research Organization"
+        },
+        {
+            "event": "Launched HLOSASEC into High Lunar Orbit, used LAHEOPL 1.4. First Lunar Orbiter for SSAAI."
+            "who": "SSAAI"
         }
     ]
 }
