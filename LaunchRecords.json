@@ -444,6 +444,10 @@
         {
             "event": "2x Lunar Surface Scanner mk1 satelites launched in Lower Lunar Orbit, used Falconete SN-2",
             "who": "Chimken Space Research Organization"
+        },
+        {
+            "event": "Launched He-Relay 5 in lunar orbit",
+            "who": "Canary Industries"
         }
     ]
 }
