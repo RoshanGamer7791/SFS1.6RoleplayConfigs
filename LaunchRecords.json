@@ -460,6 +460,10 @@
         {
             "event": "Launched HLOSASEC into High Lunar Orbit, used LAHEOPL 1.4. First Lunar Orbiter for SSAAI",
             "who": "SSAAI"
+        },
+        {
+            "event": "Launched crew to Moongate for the first time for Redstar and sent humans to land on the moon for the first time for Redstar Aerospace.",
+            "who": "Redstar Aerospace"
         }
     ]
 }
