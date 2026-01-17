@@ -452,6 +452,10 @@
         {
             "event": "First crewed orbit for Redstar",
             "who": "Redstar Aerospace"
+        },
+        {
+            "event": "Landed 'Chandra-X' on the Moon, used Falconete-Heavy. First Lunar Landing for CSRO",
+            "who": "Chimken Space Research Organization"
         }
     ]
 }
