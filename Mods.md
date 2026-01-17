@@ -10,3 +10,5 @@ Hopiters Nuclear Engines
 Roshans Nuclear Engines (Not out yet)  
 Vanilla+  
 Procedural Parts
+BR Apollo
+New horizons addon for BR Apollo
