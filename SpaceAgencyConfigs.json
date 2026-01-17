@@ -129,9 +129,9 @@
             "comms": "Normal Comms"
         },
         {   
-            "name": "SSAAI",
+            "name": "Stark Miller Space Agency and Industries (SSAAI)",
             "owner": "Dr. Stark Miller",
-            "type": "Public",
+            "type": "Private",
             "prestige": "0",
             "status": "Active",
             "comms": "Lunar Grade"
