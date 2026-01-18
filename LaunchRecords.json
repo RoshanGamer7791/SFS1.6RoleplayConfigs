@@ -462,16 +462,16 @@
             "who": "SSAAI"
         },
         {
+            "event": "Hera 10: First Landing on Moon, and back to Earth",
+            "who": "Canary Industries"
+        },
+        {
             "event": "Launched crew to Moongate for the first time for Redstar and sent humans to land on the moon for the first time for Redstar Aerospace",
             "who": "Redstar Aerospace"
         },
         {
             "event": "Cub 9 | First venus flyby for Redstar Aerospace",
             "who": "Redstar Aerospace"
-        },
-        {
-            "event": "Hera 10: First Landing on Moon, and back to Earth",
-            "who": "Canary Industries"
         }
     ]
 }
