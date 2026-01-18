@@ -37,7 +37,7 @@
             "owner": "FPE Fan",
             "type": "Government",
             "prestige": "4",
-            "status": "Active",
+            "status": "Minorly Active",
             "comms": "Normal Comms"
         },
         {
@@ -45,7 +45,7 @@
             "owner": "J3 Mângo",
             "type": "Private",
             "prestige": "4.25",
-            "status": "Active",
+            "status": "Temporarily Inactive",
             "comms": "Interplanetary Comms [Entry]"
         },
         {
@@ -53,7 +53,7 @@
             "owner": "TheMacTester",
             "type": "Private",
             "prestige": "11",
-            "status": "Active",
+            "status": "Inactive",
             "comms": "Interplanetary Comms [Entry]"
         },
         {
@@ -61,7 +61,7 @@
             "owner": "Engine",
             "type": "Private",
             "prestige": "1",
-            "status": "Active",
+            "status": "Inactive",
             "comms": "Lunar Grade"
         },
          {
