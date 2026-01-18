@@ -462,7 +462,11 @@
             "who": "SSAAI"
         },
         {
-            "event": "Launched crew to Moongate for the first time for Redstar and sent humans to land on the moon for the first time for Redstar Aerospace.",
+            "event": "Launched crew to Moongate for the first time for Redstar and sent humans to land on the moon for the first time for Redstar Aerospace",
+            "who": "Redstar Aerospace"
+        },
+        {
+            "event": "First venus flyby for Redstar Aerospace",
             "who": "Redstar Aerospace"
         }
     ]
