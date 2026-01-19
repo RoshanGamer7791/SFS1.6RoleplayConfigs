@@ -472,6 +472,10 @@
         {
             "event": "Cub 9 | First venus flyby for Redstar Aerospace",
             "who": "Redstar Aerospace"
+        },
+        {
+            "event": "Heraclease Orbiter: First Habitable satellite of the industry"
+            "who": "Canary Industries"
         }
     ]
 }
