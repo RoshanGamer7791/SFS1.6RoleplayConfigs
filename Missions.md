@@ -8,9 +8,7 @@ Note: This is unfinished
 - Crewed Orbit: L10 | Blue Aerospace | Year 2002
 
 ### Uncrewed:
-- Uncrewed Flyby: L8 | APA | Year 2001
-- Uncrewed Orbit: L34 | Nuclide Technologies | Year 2008
-- Uncrewed Landing: L42 | Nuclide Technologies | Year 2010
+- Uncrewed Orbit: L1 | Untitled Aerospace | Year 2000
 
 ### Misc:
 
