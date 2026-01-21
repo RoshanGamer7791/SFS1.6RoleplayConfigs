@@ -33,3 +33,30 @@ Note: This is unfinished
 #### Advanced:
 
 - Space station: L80 | Redstar Aerospace | Year 2019
+
+# Venus:
+
+### Uncrewed:
+- Uncrewed Flyby: L11 | Space Comes First (SCF) | Year 2002
+- Uncrewed Orbit: L47 | Untitled Aerospace Agency | Year 2011
+- Uncrewed Landing: L52 | Untitled Aerospace Agency | Year 2012
+
+### Crewed:
+- Crewed Flyby: L57 | Untitled Aerospace Agency | Year 2014
+
+# Mars:
+
+### Uncrewed:
+- Uncrewed Flyby: L64 | Untitled Aerospace Agency | Year 2015
+- Uncrewed Orbit: L86 | Untitled Aerospace Agency | Year 2021
+- Uncrewed Landing: L102 | Untitled Aerospace Agency | Year 2025
+
+## Phobos:
+
+#### Uncrewed:
+- Uncrewed Landing: L86 | Untitled Aerospace Agency | Year 2021
+
+## Deimos:
+
+#### Uncrewed:
+- Uncrewed Landing: L86 | Untitled Aerospace Agency | Year 2021
