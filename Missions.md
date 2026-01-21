@@ -1,5 +1,4 @@
 # List of missions:
-Note: This is unfinished
 
 # Earth:
 
@@ -33,6 +32,7 @@ Note: This is unfinished
 #### Advanced:
 
 - Space station: L80 | Redstar Aerospace | Year 2019
+- Base: L120 | Redstar Aerospace | Year 2029
 
 # Venus:
 
