@@ -8,7 +8,7 @@
             "event": "First orbit for the APA",
             "who": "APA"
         },
-        {
+        { 
             "event": "First orbit for Redstar Aerospace",
             "who": "Redstar Aerospace"
         },
@@ -476,6 +476,10 @@
         {
             "event": "Heraclease Orbiter: First Habitable satellite of the industry",
             "who": "Canary Industries"
+        },
+        {
+            "event": "First lunar base launched!",
+            "who": "Redstar Aerospace"
         }
     ]
 }
