@@ -21,6 +21,10 @@ Website: [SFS 1.6 RP](https://sfsnewrp.w3spaces.com/)
 * Roshan
 * SadCashier20/captaindawn90315
 * Chimken48
+* SERAP49
+* Dr Stark Miller
+* Andromeda SFS
+* Geo boi
 
 ## ICSA
 The Interplanetary Coordination & Standards Authority (ICSA) is a organization that defines new zones and standards, not a actual agency.
