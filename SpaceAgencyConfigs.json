@@ -135,6 +135,14 @@
             "prestige": "0",
             "status": "Active",
             "comms": "Lunar Grade"
+        },
+        {
+            "name": "Andromeda Aerospace services (AAS)",
+            "owner": "Federico (username soon to be changed)",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "normal comms"
         }
     ]
 }
