@@ -4,15 +4,15 @@ Note: This is unfinished
 # Earth:
 
 ### Crewed:
-- Crewed Space: L5 | Redstar | Year 2001
+- Crewed Space: L5 | Redstar Aerospace | Year 2001
 - Crewed Orbit: L10 | Blue Aerospace | Year 2002
 
 ### Uncrewed:
 - Uncrewed Orbit: L1 | Untitled Aerospace | Year 2000
 
-### Misc:
+### Advanced:
 
-- Uncrewed Impactor: L14 | Untitled Aerospace Agency | Year 2003
+- Space station: L37 | Untitled Aerospace | Year 2009
 
 ## Moon:
 
@@ -30,6 +30,6 @@ Note: This is unfinished
 
 - Uncrewed Impactor: L14 | Untitled Aerospace Agency | Year 2003
 
-### Modern Era:
+### Advanced:
 
-- Moongate Launch | Year 2019
+- Space station: L80 | Redstar Aerospace | Year 2019
