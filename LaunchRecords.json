@@ -480,6 +480,10 @@
         {
             "event": "First lunar base launched!",
             "who": "Redstar Aerospace"
+        },
+        {
+            "Event": "First suborbital test flight for the AAS",
+            "who": "Andromeda Aerospace services"
         }
     ]
 }
