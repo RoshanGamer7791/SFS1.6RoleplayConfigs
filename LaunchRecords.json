@@ -484,6 +484,10 @@
         {
             "event": "First suborbital test flight for the AAS",
             "who": "Andromeda Aerospace services"
+        },
+        {
+            "event": "First satellite launched by the AAS",
+            "who": "Andromeda Aerospace Services"
         }
     ]
 }
