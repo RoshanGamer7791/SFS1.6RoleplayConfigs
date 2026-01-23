@@ -145,11 +145,12 @@
             "comms": "normal comms"
         }
         {
-            "name": TCF Space Association",
+            "name": "TCF Space Association",
             "owner": "Tdog20202",
             "type": "Private",
             "prestige": "1",
             "status": "Active",
             "comms": "normal comms"
         }
+      ]
 }
