@@ -483,10 +483,14 @@
         },
         {
             "event": "First suborbital test flight for the AAS",
-            "who": "Andromeda Aerospace services"
+            "who": "Andromeda Aerospace Services"
         },
         {
             "event": "First satellite launch by the AAS",
+            "who": "Andromeda Aerospace Services"
+        },
+        {
+            "event": "First manned suborbital flight for the AAS",
             "who": "Andromeda Aerospace Services"
         }
     ]
