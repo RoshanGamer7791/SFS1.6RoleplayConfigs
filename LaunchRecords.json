@@ -492,6 +492,10 @@
         {
             "event": "First manned suborbital flight for the AAS",
             "who": "Andromeda Aerospace Services"
+        },
+        {
+            "event": "Part 1 of the Pegasus Docking Platform for the Moongate, used Ladunek-2 LV",
+            "who": "Untitled Aerospace Agency"
         }
     ]
 }
