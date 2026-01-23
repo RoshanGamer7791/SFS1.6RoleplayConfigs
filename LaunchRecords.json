@@ -478,6 +478,10 @@
             "who": "Canary Industries"
         },
         {
+            "event": "First satellite placed in orbit by TCF Space Association",
+            "who": "TCF Space Association"
+        },
+        {
             "event": "First lunar base launched!",
             "who": "Redstar Aerospace"
         },
@@ -488,6 +492,10 @@
         {
             "event": "First satellite launch by the AAS",
             "who": "Andromeda Aerospace Services"
+        },
+        {
+            "event": "First unmanned orbital launched by TCF Space Association",
+            "who": "TCF Space Association"
         },
         {
             "event": "First manned suborbital flight for the AAS",
