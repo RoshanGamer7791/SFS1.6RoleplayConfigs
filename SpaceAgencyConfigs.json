@@ -73,14 +73,6 @@
             "comms": "Interplanatary Comms [Entry]"
         },
         {
-            "name": "ISAAD",
-            "owner": "AarohantheAscender/Emperor",
-            "type": "Private",
-            "prestige": "0",
-            "status": "Planned",
-            "comms": "Normal Comms"
-        },
-        {
             "name": "Roshan Aerospace and Space Agency (RASA)",
             "owner": "Roshan",
             "type": "Private",
@@ -148,7 +140,15 @@
             "name": "TCF Space Association",
             "owner": "Tdog20202",
             "type": "Private",
-            "prestige": "1",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "normal comms"
+        },
+        {
+            "name": "Star Space Agency",
+            "owner": "Star Space",
+            "type": "Private",
+            "prestige": "0",
             "status": "Active",
             "comms": "normal comms"
         }
