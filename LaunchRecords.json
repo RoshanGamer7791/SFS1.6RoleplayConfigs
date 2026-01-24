@@ -504,6 +504,10 @@
         {
             "event": "Part 1 of the Pegasus Docking Platform for the Moongate, used Ladunek-2 LV",
             "who": "Untitled Aerospace Agency"
+        },
+        {
+            "event": "The AAS launches their first manned orbital mission!, the crew landed safely",
+            "who": "Andromeda Aerospace Services"
         }
     ]
 }
