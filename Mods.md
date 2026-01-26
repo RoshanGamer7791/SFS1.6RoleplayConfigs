@@ -13,3 +13,6 @@ Procedural Parts 1.2 (old parts and new 1.2)
 Lurin's Things (No use of "Realistic Mode" engines)           
 Letters Mod                         
 AAC Engines Mod
+Sam's Miscellaneous                
+Kiwi Engines                      
+Lasers (only to mark colonies)   
