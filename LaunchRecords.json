@@ -536,6 +536,10 @@
         {
             "event": "First ever lander on the Captured Asteroid (CAL), used LPCAMMC 1.0.",
             "who": "SSAAI"
+        },
+        {
+            "event": "First communication satellite in LEO launched by AAS"
+            "who": "Andromeda Aerospace Agency"
         }
     ]
 }
