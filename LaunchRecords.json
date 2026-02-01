@@ -422,6 +422,10 @@
             "who": "Canary Industries"
         },
         {
+            "event": "First crewed orbital DAA mission" 
+            "who": "Danish Aerospace Agency" 
+        },
+        {
             "event": "Launched LGCSADC into lunar orbit giving SSAAI access to lunar grade comms, used LAHEOPL 1.3",
             "who": "SSAAI"
         },
@@ -512,6 +516,10 @@
         {
             "event": "First suborbital launch for Ethan Games YT.",
             "who": "Ethan games YT"
+        },
+        {
+            "event": "DAA Lunar grade comms setup"
+            "who": "Danish Aerospace Agency"
         }
     ]
 }
