@@ -508,6 +508,10 @@
         {
             "event": "The AAS launches their first manned orbital mission!, the crew landed safely",
             "who": "Andromeda Aerospace Services"
+        },
+        {
+            "event": "First suborbital launch for Ethan Games YT.",
+            "who": "Ethan games YT"
         }
     ]
 }
