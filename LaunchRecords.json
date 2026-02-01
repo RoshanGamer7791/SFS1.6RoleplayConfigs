@@ -530,7 +530,11 @@
             "who": "Untitled Aerospace Agency"
         },
         {
-            "event": "Second ever orbiter of the Captured Asteroid, CASECEC, is launched used LPCAMMC 1.0.",
+            "event": "Second ever orbiter of the Captured Asteroid, CASECEC, is launched. Used LPCAMMC 1.0.",
+            "who": "SSAAI"
+        },
+        {
+            "event": "First ever lander on the Captured Asteroid (CAL), used LPCAMMC 1.0.",
             "who": "SSAAI"
         }
     ]
