@@ -482,6 +482,10 @@
             "who": "Canary Industries"
         },
         {
+            "event": "Low Lunar Orbit Surface scanner launched, used LPCAMMC 1.0.",
+            "who": "SSAAI"
+        },
+        {
             "event": "First satellite placed in orbit by TCF Space Association",
             "who": "TCF Space Association"
         },
