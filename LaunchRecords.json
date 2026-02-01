@@ -482,7 +482,7 @@
             "who": "Canary Industries"
         },
         {
-            "event": "Low Lunar Orbit Surface scanner launched, used LPCAMMC 1.0.",
+            "event": "Low Lunar Orbit Surface scanner launched, used LPCAMMC 1.0. + First deorbital burn and surface scan of DARCLLOT.",
             "who": "SSAAI"
         },
         {
@@ -528,6 +528,10 @@
         {
             "event": "Part 1 launch of the Neutron-5",
             "who": "Untitled Aerospace Agency"
+        },
+        {
+            "event": "Second ever orbiter of the Captured Asteroid, CASECEC, is launched used LPCAMMC 1.0.",
+            "who": "SSAAI"
         }
     ]
 }
