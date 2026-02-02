@@ -545,5 +545,9 @@
             "event": "Double moon flyby done by BetaL, then going into Sun Orbit.",
             "who": "Danish Aerospace Agency"
         }
+        {
+            "event": "SSAAI's Interplanetary Relay Comms is deployed, used LPCAMMC 1.0.",
+            "who": "SSAAI"
+        }
     ]
 }
