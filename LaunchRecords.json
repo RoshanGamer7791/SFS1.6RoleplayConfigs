@@ -540,6 +540,10 @@
         {
             "event": "First communications satellite in LEO for the AAS!",
             "who": "Andromeda Aerospace Services"
+        },
+        {
+            "event": "Double moon flyby done by BetaL, then going into Sun Orbit.",
+            "who": "Danish Aerospace Agency"
         }
     ]
 }
