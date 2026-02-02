@@ -153,6 +153,14 @@
             "comms": "normal comms"
         },
         {
+            "name": "Dorito Corp",
+            "owner": "Sam the eater of doritos",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "normal comms"
+        },
+        {
             "name": "Ethan games YT",
             "owner": "Ethan games YT",
             "type": "Private",
