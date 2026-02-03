@@ -548,6 +548,10 @@
         {
             "event": "SSAAI Interplanetary Relay Comms deployed at the edge of ESOI, used LPCAMMC 1.0.",
             "who": "SSAAI"
+        },
+        {
+            "event": "Cubesat 'crumb' deployed in Low Earth Orbit",
+            "who": "Dorito Corp"
         }
     ]
 }
