@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 researchpoints = 0
+upvar = tk.StringVar(value="Unlocked Parts:")
 
 rpcounter = tk.Label(ttn, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
 rpcounter.pack(side="top")
