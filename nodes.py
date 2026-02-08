@@ -62,6 +62,7 @@ def rp_changer():
         researchpoints -= 1
         rpcounter.config(text=f"Research Points: {researchpoints}")
         if researchpoints <= 0:
+            researchpoints += 1
             messagebox.showerror(
                 title="Not enough research",
                 message="You dont have enough research points for this"
@@ -73,6 +74,7 @@ def rp_changer():
         researchpoints -= 10
         rpcounter.config(text=f"Research Points: {researchpoints}")
         if researchpoints <= 0:
+            researchpoints += 10
             messagebox.showerror(
                 title="Not enough research",
                 message="You dont have enough research points for this"
@@ -84,6 +86,7 @@ def rp_changer():
         researchpoints -= 100
         rpcounter.config(text=f"Research Points: {researchpoints}")
         if researchpoints <= 0:
+            researchpoints += 100
             messagebox.showerror(
                 title="Not enough research",
                 message="You dont have enough research points for this"
@@ -95,6 +98,7 @@ def rp_changer():
         researchpoints -= 250
         rpcounter.config(text=f"Research Points: {researchpoints}")
         if researchpoints <= 0:
+            researchpoints += 250
             messagebox.showerror(
                 title="Not enough research",
                 message="You dont have enough research points for this"
@@ -106,6 +110,7 @@ def rp_changer():
         researchpoints -= 500
         rpcounter.config(text=f"Research Points: {researchpoints}")
         if researchpoints <= 0:
+            researchpoints += 500
             messagebox.showerror(
                 title="Not enough research",
                 message="You dont have enough research points for this"
@@ -165,6 +170,7 @@ def seperators():
         )
         return
     if researchpoints <= 0:
+        researchpoints += 10
         messagebox.showerror(
             title="Not enough Research",
             message="You dont have enough research for this"
@@ -188,6 +194,7 @@ def general_rocketry():
         )
         return
     if researchpoints <= 0:
+        researchpoints += 45
         messagebox.showerror(
             title="Not enough Research",
             message="You dont have enough research for this"
@@ -211,6 +218,7 @@ def advanced_rocketry():
         )
         return
     if researchpoints <= 0:
+        researchpoints += 90
         messagebox.showerror(
             title="Not enough Research",
             message="You dont have enough research for this"
