@@ -177,10 +177,10 @@ seperatorsb.pack(side="left", padx=20, pady=200)
 def general_rocketry():
     global upvar, researchpoints
     current = upvar.get()
-    if ", Hawk Engine, 4x4 Fuel Tank, 4x8 Fuel Tank" not in current:
+    if ", Valiant Engine, 4x4 Fuel Tank" not in current:
         researchpoints -= 45
         rpcounter.config(text=f"Research Points: {researchpoints}")
-        upvar.set(current + ", Hawk Engine, 4x4 Fuel Tank, 4x8 Fuel Tank")
+        upvar.set(current + ", Valiant Engine, 4x4 Fuel Tank, 4x8 Fuel Tank")
     else:
         messagebox.showinfo(
             title="Node already unlocked",
@@ -195,4 +195,24 @@ def general_rocketry():
         return
     
 general_rocketryb = tk.Button (ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
-general_rocketryb.pack(side="left", padx=10, pady=175)
+general_rocketryb.pack(side="left", padx=40, pady=175)
+
+def advanced_rocketry():
+    global upvar, researchpoints
+    current = upvar.get()
+    if ", Hawk Engine, 4x8 Fuel Tank" not in current:
+        researchpoints -= 90
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+        upvar.set(current, + ", Hawk Engine, 4x8 Fuel Tank")
+    else:
+        messagebox.showinfo(
+            title="You already unlocked",
+            message="You already unlocked this node"
+        )
+        return
+    if researchpoints <= 0:
+        messagebox.showerror(
+            title="Not enough Research",
+            message="You dont have enough research for this"
+        )
+        return
