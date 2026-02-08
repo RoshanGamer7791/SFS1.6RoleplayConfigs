@@ -1,0 +1,150 @@
+import tkinter as tk
+from tkinter import messagebox
+
+researchpoints = 0
+
+rpcounter = tk.Label(ttn, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
+rpcounter.pack(side="top")
+
+def rp_changer():
+    rpcw = tk.Toplevel(root)
+    rpcw.title("Research Point Changer"),
+    rpcw.geometry("490x490")
+    def add1():
+        global researchpoints
+        researchpoints += 1
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+    
+    def add10():
+        global researchpoints
+        researchpoints += 10
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+    
+    def add100():
+        global researchpoints
+        researchpoints += 100
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+    
+    def add250():
+        global researchpoints
+        researchpoints += 250
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+        
+    def add500():
+        global researchpoints
+        researchpoints += 500
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+            
+    add1b = tk.Button(rpcw, text="+1", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=add1)
+    add1b.pack(side="top", fill="x")
+    add10b = tk.Button(rpcw, text="+10", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=add10)
+    add10b.pack(side="top", fill="x") 
+    add100b = tk.Button(rpcw, text="+100", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=add100)
+    add100b.pack(side="top", fill="x")
+    add250b = tk.Button(rpcw, text="+250", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=add250)
+    add250b.pack(side="top", fill="x")
+    add500b = tk.Button(rpcw, text="+500", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=add500)
+    add500b.pack(side="top", fill="x")
+    
+    def remove1():
+        global researchpoints
+        researchpoints -= 1
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+        if researchpoints <= 0:
+            messagebox.showerror(
+                title="Not enough research",
+                message="You dont have enough research points for this"
+            )
+    
+    def remove10():
+        global researchpoints
+        researchpoints -= 10
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+        
+    def remove100():
+        global researchpoints
+        researchpoints -= 100
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+        
+    def remove250():
+        global researchpoints
+        researchpoints -= 250
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+    
+    def remove500():
+        global researchpoints
+        researchpoints -= 500
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+    
+    remove1b = tk.Button(rpcw, text="-1", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=remove1)
+    remove1b.pack(side="top", fill="x")
+    remove10b = tk.Button(rpcw, text="-10", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=remove10)
+    remove10b.pack(side="top", fill="x")
+    remove100b = tk.Button(rpcw, text="-100", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=remove100)
+    remove100b.pack(side="top", fill="x")
+    remove250b = tk.Button(rpcw, text="-250", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=remove250)
+    remove250b.pack(side="top", fill="x")
+    remove500b = tk.Button(rpcw, text="-500", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=remove500)
+    remove500b.pack(side="top", fill="x")
+
+rpbutton = tk.Button(ttn, text="Research Points Changer", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=rp_changer)
+rpbutton.pack(side="top", padx=10)
+
+def upui():
+    upuiwin = tk.Toplevel(root, bg="black")
+    upuiwin.title("Unlocked Parts")
+    upuiwin.geometry("500x500")
+    upmsg = tk.Message(upuiwin, bg="black", fg="white", font=("Segoe UI", 15, "bold"), textvariable=upvar, width=500)
+    upmsg.pack(fill="both", expand=True)
+    
+upuib = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Unlocked Parts", command=upui)
+upuib.pack(side="top")
+
+def startnode():
+    global upvar
+    current = upvar.get()
+    if " Mystery Goo, Kolibri Engine, 4x2 Fuel Tank" not in current:
+        upvar.set(current + " Mystery Goo, Kolibri Engine, 4x2 Fuel Tank")
+    else:
+        messagebox.showinfo(
+            title="Node already unlocked",
+            message="You already unlocked this node"
+        )
+        return
+    
+startb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Start", command=startnode)
+startb.pack(side="left", pady=200)
+
+def seperators():
+    global upvar, researchpoints
+    current = upvar.get()
+    if ", Seperators, Thermometers, Valiant Engine" not in current:
+        researchpoints -= 10
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+        upvar.set(current + ", Seperators, Thermometers, Valiant Engine")
+    else:
+        messagebox.showinfo(
+            title="Node already unlocked",
+            message="You already unlocked this node"
+        )
+        return
+    
+seperatorsb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Seperators", command=seperators)
+seperatorsb.pack(side="left", padx=20, pady=200)
+
+def general_rocketry():
+    global upvar, researchpoints
+    current = upvar.get()
+    if ", Hawk Engine, 4x4 Fuel Tank, 4x8 Fuel Tank" not in current:
+        researchpoints -= 45
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+        upvar.set(current + ", Hawk Engine, 4x4 Fuel Tank, 4x8 Fuel Tank")
+    else:
+        messagebox.showinfo(
+            title="Node already unlocked",
+            message="You already unlocked this node"
+        )
+        return
+    
+general_rocketryb = tk.Button (ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
+general_rocketryb.pack(side="left", padx=10, pady=175)
