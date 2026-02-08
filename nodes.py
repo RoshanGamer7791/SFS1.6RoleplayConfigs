@@ -180,7 +180,7 @@ def general_rocketry():
     if ", Valiant Engine, 4x4 Fuel Tank" not in current:
         researchpoints -= 45
         rpcounter.config(text=f"Research Points: {researchpoints}")
-        upvar.set(current + ", Valiant Engine, 4x4 Fuel Tank, 4x8 Fuel Tank")
+        upvar.set(current + ", Valiant Engine, 4x4 Fuel Tank")
     else:
         messagebox.showinfo(
             title="Node already unlocked",
