@@ -4,6 +4,14 @@ from tkinter import messagebox
 researchpoints = 0
 upvar = tk.StringVar(value="Unlocked Parts:")
 
+canvas = tk.Canvas(root, bg="black", borderwidth=0)
+sb = tk.Scrollbar(root, orient="horizontal", command=canvas.xview, bg="black", troughcolor="white", width=10)
+canvas.configure(xscrollcommand=sb.set)
+sb.pack(side="bottom", fill="x", expand=True)
+canvas.pack(side="top", fill="both", expand=True)
+ttn = tk.Frame(canvas, bg="black")
+windowid = canvas.create_window((0, 0), window=ttn, anchor="nw")
+
 rpcounter = tk.Label(ttn, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
 rpcounter.pack(side="top")
 
