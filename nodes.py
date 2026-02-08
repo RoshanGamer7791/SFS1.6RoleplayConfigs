@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
 
+root = None
+
 researchpoints = 0
 upvar = tk.StringVar(value="Unlocked Parts:")
 
