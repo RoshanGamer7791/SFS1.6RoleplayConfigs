@@ -1,6 +1,6 @@
 # Mods  
-  
-VerdiX's Worldbuid(Astrodude) Mod (Optional)
+
+None we have mobile players
   
 # Custom Parts  
 
