@@ -177,10 +177,10 @@ seperatorsb.pack(side="left", padx=20, pady=200)
 def general_rocketry():
     global upvar, researchpoints
     current = upvar.get()
-    if ", Valiant Engine, 4x4 Fuel Tank" not in current:
+    if ", Hawk Engine, 4x4 Fuel Tank, 4x8 Fuel Tank" not in current:
         researchpoints -= 45
         rpcounter.config(text=f"Research Points: {researchpoints}")
-        upvar.set(current + ", Valiant Engine, 4x4 Fuel Tank")
+        upvar.set(current + ", Hawk Engine, 4x4 Fuel Tank, 4x8 Fuel Tank")
     else:
         messagebox.showinfo(
             title="Node already unlocked",
@@ -200,10 +200,10 @@ general_rocketryb.pack(side="left", padx=30, pady=200)
 def advanced_rocketry():
     global upvar, researchpoints
     current = upvar.get()
-    if ", Hawk Engine, 4x8 Fuel Tank" not in current:
+    if ", Titan Engine, 6x2 Fuel Tank, 6x4 Fuel Tank, 6x6 Fuel Tank, 6x8 Fuel Tank" not in current:
         researchpoints -= 90
         rpcounter.config(text=f"Research Points: {researchpoints}")
-        upvar.set(current, + ", Hawk Engine, 4x8 Fuel Tank")
+        upvar.set(current, + ", Titan Engine, 6x2 Fuel Tank, 6x4 Fuel Tank, 6x6 Fuel Tank, 6x8 Fuel Tank")
     else:
         messagebox.showinfo(
             title="You already unlocked",
