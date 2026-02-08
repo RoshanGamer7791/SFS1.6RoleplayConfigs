@@ -203,7 +203,7 @@ def advanced_rocketry():
     if ", Titan Engine, 6x2 Fuel Tank, 6x4 Fuel Tank, 6x6 Fuel Tank, 6x8 Fuel Tank" not in current:
         researchpoints -= 90
         rpcounter.config(text=f"Research Points: {researchpoints}")
-        upvar.set(current, + ", Titan Engine, 6x2 Fuel Tank, 6x4 Fuel Tank, 6x6 Fuel Tank, 6x8 Fuel Tank")
+        upvar.set(current + ", Titan Engine, 6x2 Fuel Tank, 6x4 Fuel Tank, 6x6 Fuel Tank, 6x8 Fuel Tank")
     else:
         messagebox.showinfo(
             title="You already unlocked",
