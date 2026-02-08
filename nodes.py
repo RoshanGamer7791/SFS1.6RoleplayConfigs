@@ -195,7 +195,7 @@ def general_rocketry():
         return
     
 general_rocketryb = tk.Button (ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
-general_rocketryb.pack(side="left", padx=30, pady=175)
+general_rocketryb.pack(side="left", padx=30, pady=200)
 
 def advanced_rocketry():
     global upvar, researchpoints
