@@ -66,26 +66,51 @@ def rp_changer():
                 title="Not enough research",
                 message="You dont have enough research points for this"
             )
+            return
     
     def remove10():
         global researchpoints
         researchpoints -= 10
         rpcounter.config(text=f"Research Points: {researchpoints}")
+        if researchpoints <= 0:
+            messagebox.showerror(
+                title="Not enough research",
+                message="You dont have enough research points for this"
+            )
+            return
         
     def remove100():
         global researchpoints
         researchpoints -= 100
         rpcounter.config(text=f"Research Points: {researchpoints}")
+        if researchpoints <= 0:
+            messagebox.showerror(
+                title="Not enough research",
+                message="You dont have enough research points for this"
+            )
+            return
         
     def remove250():
         global researchpoints
         researchpoints -= 250
         rpcounter.config(text=f"Research Points: {researchpoints}")
+        if researchpoints <= 0:
+            messagebox.showerror(
+                title="Not enough research",
+                message="You dont have enough research points for this"
+            )
+            return
     
     def remove500():
         global researchpoints
         researchpoints -= 500
         rpcounter.config(text=f"Research Points: {researchpoints}")
+        if researchpoints <= 0:
+            messagebox.showerror(
+                title="Not enough research",
+                message="You dont have enough research points for this"
+            )
+            return
     
     remove1b = tk.Button(rpcw, text="-1", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=remove1)
     remove1b.pack(side="top", fill="x")
@@ -139,6 +164,12 @@ def seperators():
             message="You already unlocked this node"
         )
         return
+    if researchpoints <= 0:
+        messagebox.showerror(
+            title="Not enough Research",
+            message="You dont have enough research for this"
+        )
+        return
     
 seperatorsb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Seperators", command=seperators)
 seperatorsb.pack(side="left", padx=20, pady=200)
@@ -154,6 +185,12 @@ def general_rocketry():
         messagebox.showinfo(
             title="Node already unlocked",
             message="You already unlocked this node"
+        )
+        return
+    if researchpoints <= 0:
+        messagebox.showerror(
+            title="Not enough Research",
+            message="You dont have enough research for this"
         )
         return
     
