@@ -210,8 +210,32 @@ def general_rocketry():
         )
         return
     
-general_rocketryb = tk.Button (btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
-general_rocketryb.grid(row=50, column=10)
+general_rocketryb = tk.Button(btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
+general_rocketryb.grid(row=45, column=10)
+
+def generalsolidrocketmotors():
+    global upvar, researchpoints
+    current = upvar.get
+    if "4 wide Solid Rocket Boosters" not in current:
+        researchpoints -= 45
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+        upvar.set(current + ", 4 wide Solid Rocket boosters")
+    else:
+        messagebox.showinfo(
+            title="Node already unlocked",
+            message="You already unlocked this node"
+        )
+    if researchpoints <= -1:
+        researchpoints += 45
+        rpcounter.config(text=f"Research Points: {researchpoints}")
+        messagebox.showerror(
+            title="Not enough Research",
+            message="You dont have enough research for this"
+        )
+        return
+    
+generalsolidrocketmotorsb = tk.Button(btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Solid Rocket Motors", command=generalsolidrocketmotors)
+generalsolidrocketmotorsb.grid(row=55, column=10)
 
 def advanced_rocketry():
     global upvar, researchpoints
