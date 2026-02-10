@@ -8,7 +8,9 @@ upvar = tk.StringVar(value="Unlocked Parts:")
 
 btns = tk.Frame(root, bg="black")
 btns.pack(side="top", fill="x")
-ttn = None
+ttnp1 = tk.Frame(root, bg="black")
+ttnp1.grid(sticky="nsew")
+
 
 rpcounter = tk.Label(btns, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
 rpcounter.pack(side="left")
@@ -154,7 +156,7 @@ def startnode():
         )
         return
     
-startb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Start", command=startnode)
+startb = tk.Button(ttnp1, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Start", command=startnode)
 startb.grid(row=50, column=0)
 
 def seperators():
@@ -179,7 +181,7 @@ def seperators():
         )
         return
     
-seperatorsb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Seperators", command=seperators)
+seperatorsb = tk.Button(ttnp1, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Seperators", command=seperators)
 seperatorsb.grid(row=50, column=5)
 
 def general_rocketry():
@@ -204,7 +206,7 @@ def general_rocketry():
         )
         return
     
-general_rocketryb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
+general_rocketryb = tk.Button(ttnp1, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
 general_rocketryb.grid(row=45, column=10)
 
 def generalsolidrocketmotors():
@@ -228,7 +230,7 @@ def generalsolidrocketmotors():
         )
         return
     
-generalsolidrocketmotorsb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Solid Rocket Motors", command=generalsolidrocketmotors)
+generalsolidrocketmotorsb = tk.Button(ttnp1, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Solid Rocket Motors", command=generalsolidrocketmotors)
 generalsolidrocketmotorsb.grid(row=55, column=10)
 
 def advanced_rocketry():
@@ -253,5 +255,5 @@ def advanced_rocketry():
         )
         return
     
-advanced_rocketryb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Advanced Rocketry", command=advanced_rocketry)
+advanced_rocketryb = tk.Button(ttnp1, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Advanced Rocketry", command=advanced_rocketry)
 advanced_rocketryb.grid(row=50, column=15)
