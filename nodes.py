@@ -9,13 +9,13 @@ upvar = tk.StringVar(value="Unlocked Parts:")
 canvas = tk.Canvas(root, bg="black", borderwidth=0)
 sb = tk.Scrollbar(root, orient="horizontal", command=canvas.xview, bg="black", troughcolor="white", width=10)
 canvas.configure(xscrollcommand=sb.set)
-sb.grid(row=0, sticky="ew")
-canvas.grid(sticky="nsew")
+sb.pack(side="bottom", fill="x", expand=True)
+canvas.pack(side="top", fill="both", expand=True)
 ttn = tk.Frame(canvas, bg="black")
 windowid = canvas.create_window((0, 0), window=ttn, anchor="nw")
 
 rpcounter = tk.Label(ttn, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
-rpcounter.grid(row=1, column=0)
+rpcounter.pack(side="top")
 
 def rp_changer():
     rpcw = tk.Toplevel(root)
@@ -63,6 +63,7 @@ def rp_changer():
         rpcounter.config(text=f"Research Points: {researchpoints}")
         if researchpoints <= 0:
             researchpoints += 1
+            rpcounter.config(text=f"Research Points: {researchpoints}")
             messagebox.showerror(
                 title="Not enough research",
                 message="You dont have enough research points for this"
@@ -75,6 +76,7 @@ def rp_changer():
         rpcounter.config(text=f"Research Points: {researchpoints}")
         if researchpoints <= 0:
             researchpoints += 10
+            rpcounter.config(text=f"Research Points: {researchpoints}")
             messagebox.showerror(
                 title="Not enough research",
                 message="You dont have enough research points for this"
@@ -87,6 +89,7 @@ def rp_changer():
         rpcounter.config(text=f"Research Points: {researchpoints}")
         if researchpoints <= 0:
             researchpoints += 100
+            rpcounter.config(text=f"Research Points: {researchpoints}")
             messagebox.showerror(
                 title="Not enough research",
                 message="You dont have enough research points for this"
@@ -99,6 +102,7 @@ def rp_changer():
         rpcounter.config(text=f"Research Points: {researchpoints}")
         if researchpoints <= 0:
             researchpoints += 250
+            rpcounter.config(text=f"Research Points: {researchpoints}")
             messagebox.showerror(
                 title="Not enough research",
                 message="You dont have enough research points for this"
@@ -111,6 +115,7 @@ def rp_changer():
         rpcounter.config(text=f"Research Points: {researchpoints}")
         if researchpoints <= 0:
             researchpoints += 500
+            rpcounter.config(text=f"Research Points: {researchpoints}")
             messagebox.showerror(
                 title="Not enough research",
                 message="You dont have enough research points for this"
@@ -129,7 +134,7 @@ def rp_changer():
     remove500b.pack(side="top", fill="x")
 
 rpbutton = tk.Button(ttn, text="Research Points Changer", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=rp_changer)
-rpbutton.grid(row=1, column=1)
+rpbutton.pack(side="top", padx=10)
 
 def upui():
     upuiwin = tk.Toplevel(root, bg="black")
@@ -139,7 +144,7 @@ def upui():
     upmsg.pack(fill="both", expand=True)
     
 upuib = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Unlocked Parts", command=upui)
-upuib.grid(row=1, column=2)
+upuib.pack(side="top")
 
 def startnode():
     global upvar
@@ -154,7 +159,8 @@ def startnode():
         return
     
 startb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Start", command=startnode)
-startb.grid(row=5, column=0)
+startb.pack(side="left", pady=200)
+
 def seperators():
     global upvar, researchpoints
     current = upvar.get()
@@ -170,6 +176,7 @@ def seperators():
         return
     if researchpoints <= 0:
         researchpoints += 10
+        rpcounter.config(text=f"Research Points: {researchpoints}")
         messagebox.showerror(
             title="Not enough Research",
             message="You dont have enough research for this"
@@ -177,7 +184,7 @@ def seperators():
         return
     
 seperatorsb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Seperators", command=seperators)
-seperatorsb.grid(row=5, column=5)
+seperatorsb.pack(side="left", padx=20, pady=200)
 
 def general_rocketry():
     global upvar, researchpoints
@@ -194,6 +201,7 @@ def general_rocketry():
         return
     if researchpoints <= 0:
         researchpoints += 45
+        rpcounter.config(text=f"Research Points: {researchpoints}")
         messagebox.showerror(
             title="Not enough Research",
             message="You dont have enough research for this"
@@ -201,7 +209,7 @@ def general_rocketry():
         return
     
 general_rocketryb = tk.Button (ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
-general_rocketryb.grid(row=5, column=10)
+general_rocketryb.pack(side="left", padx=30, pady=200)
 
 def advanced_rocketry():
     global upvar, researchpoints
@@ -218,6 +226,7 @@ def advanced_rocketry():
         return
     if researchpoints <= 0:
         researchpoints += 90
+        rpcounter.config(text=f"Research Points: {researchpoints}")
         messagebox.showerror(
             title="Not enough Research",
             message="You dont have enough research for this"
@@ -225,4 +234,4 @@ def advanced_rocketry():
         return
     
 advanced_rocketryb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Advanced Rocketry", command=advanced_rocketry)
-advanced_rocketryb.grid(row=5, column=15)
+advanced_rocketryb.pack(side="left", padx=40, pady=200)
