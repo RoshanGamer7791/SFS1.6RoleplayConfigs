@@ -185,7 +185,7 @@ def seperators():
         )
         return
     
-seperatorsb = tk.Button(btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Seperators", command=seperators)
+seperatorsb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Seperators", command=seperators)
 seperatorsb.grid(row=50, column=5)
 
 def general_rocketry():
@@ -210,7 +210,7 @@ def general_rocketry():
         )
         return
     
-general_rocketryb = tk.Button(btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
+general_rocketryb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
 general_rocketryb.grid(row=45, column=10)
 
 def generalsolidrocketmotors():
@@ -259,5 +259,5 @@ def advanced_rocketry():
         )
         return
     
-advanced_rocketryb = tk.Button(btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Advanced Rocketry", command=advanced_rocketry)
+advanced_rocketryb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Advanced Rocketry", command=advanced_rocketry)
 advanced_rocketryb.grid(row=50, column=15)
