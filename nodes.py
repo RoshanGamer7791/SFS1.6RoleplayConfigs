@@ -14,7 +14,7 @@ canvas.pack(side="top", fill="both", expand=True)
 btns = tk.Frame(canvas, bg="black")
 windowid = canvas.create_window((0, 0), window=btns, anchor="nw")
 ttn = tk.Frame(btns, bg="black")
-ttn.grid(sticky="nsew")
+ttn.pack(side="top", fill="both", expand=True)
 
 rpcounter = tk.Label(btns, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
 rpcounter.pack(side="top")
