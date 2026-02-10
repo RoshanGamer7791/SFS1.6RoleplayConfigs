@@ -234,7 +234,7 @@ def generalsolidrocketmotors():
         )
         return
     
-generalsolidrocketmotorsb = tk.Button(btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Solid Rocket Motors", command=generalsolidrocketmotors)
+generalsolidrocketmotorsb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Solid Rocket Motors", command=generalsolidrocketmotors)
 generalsolidrocketmotorsb.grid(row=55, column=10)
 
 def advanced_rocketry():
