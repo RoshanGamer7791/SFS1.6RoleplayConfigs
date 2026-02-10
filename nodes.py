@@ -11,10 +11,12 @@ sb = tk.Scrollbar(root, orient="horizontal", command=canvas.xview, bg="black", t
 canvas.configure(xscrollcommand=sb.set)
 sb.pack(side="bottom", fill="x", expand=True)
 canvas.pack(side="top", fill="both", expand=True)
-ttn = tk.Frame(canvas, bg="black")
-windowid = canvas.create_window((0, 0), window=ttn, anchor="nw")
+btns = tk.Frame(canvas, bg="black")
+windowid = canvas.create_window((0, 0), window=btns, anchor="nw")
+ttn = tk.Frame(btns, bg="black")
+ttn.grid(sticky="nsew")
 
-rpcounter = tk.Label(ttn, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
+rpcounter = tk.Label(btns, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
 rpcounter.pack(side="top")
 
 def rp_changer():
@@ -133,7 +135,7 @@ def rp_changer():
     remove500b = tk.Button(rpcw, text="-500", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=remove500)
     remove500b.pack(side="top", fill="x")
 
-rpbutton = tk.Button(ttn, text="Research Points Changer", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=rp_changer)
+rpbutton = tk.Button(btns, text="Research Points Changer", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=rp_changer)
 rpbutton.pack(side="top", padx=10)
 
 def upui():
@@ -143,7 +145,7 @@ def upui():
     upmsg = tk.Message(upuiwin, bg="black", fg="white", font=("Segoe UI", 15, "bold"), textvariable=upvar, width=500)
     upmsg.pack(fill="both", expand=True)
     
-upuib = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Unlocked Parts", command=upui)
+upuib = tk.Button(btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Unlocked Parts", command=upui)
 upuib.pack(side="top")
 
 def startnode():
@@ -159,7 +161,7 @@ def startnode():
         return
     
 startb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Start", command=startnode)
-startb.pack(side="left", pady=200)
+startb.grid(row=50, column=0)
 
 def seperators():
     global upvar, researchpoints
@@ -183,8 +185,8 @@ def seperators():
         )
         return
     
-seperatorsb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Seperators", command=seperators)
-seperatorsb.pack(side="left", padx=20, pady=200)
+seperatorsb = tk.Button(btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Seperators", command=seperators)
+seperatorsb.grid(row=50, column=5)
 
 def general_rocketry():
     global upvar, researchpoints
@@ -208,8 +210,8 @@ def general_rocketry():
         )
         return
     
-general_rocketryb = tk.Button (ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
-general_rocketryb.pack(side="left", padx=30, pady=200)
+general_rocketryb = tk.Button (btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
+general_rocketryb.grid(row=50, column=10)
 
 def advanced_rocketry():
     global upvar, researchpoints
@@ -233,5 +235,5 @@ def advanced_rocketry():
         )
         return
     
-advanced_rocketryb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Advanced Rocketry", command=advanced_rocketry)
-advanced_rocketryb.pack(side="left", padx=40, pady=200)
+advanced_rocketryb = tk.Button(btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Advanced Rocketry", command=advanced_rocketry)
+advanced_rocketryb.grid(row=50, column=15)
