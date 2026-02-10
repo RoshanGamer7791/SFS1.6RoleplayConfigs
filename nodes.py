@@ -6,18 +6,12 @@ root = None
 researchpoints = 0
 upvar = tk.StringVar(value="Unlocked Parts:")
 
-canvas = tk.Canvas(root, bg="black", borderwidth=0)
-sb = tk.Scrollbar(root, orient="horizontal", command=canvas.xview, bg="black", troughcolor="white", width=10)
-canvas.configure(xscrollcommand=sb.set)
-sb.pack(side="bottom", fill="x", expand=True)
-canvas.pack(side="top", fill="both", expand=True)
-btns = tk.Frame(canvas, bg="black")
-windowid = canvas.create_window((0, 0), window=btns, anchor="nw")
-ttn = tk.Frame(btns, bg="black")
-ttn.pack(side="top", fill="both", expand=True)
+btns = tk.Frame(root, bg="black")
+btns.pack(side="top", fill="x")
+ttn = None
 
 rpcounter = tk.Label(btns, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
-rpcounter.pack(side="top")
+rpcounter.pack(side="left")
 
 def rp_changer():
     rpcw = tk.Toplevel(root)
@@ -136,7 +130,7 @@ def rp_changer():
     remove500b.pack(side="top", fill="x")
 
 rpbutton = tk.Button(btns, text="Research Points Changer", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=rp_changer)
-rpbutton.pack(side="top", padx=10)
+rpbutton.pack(side="left", padx=10)
 
 def upui():
     upuiwin = tk.Toplevel(root, bg="black")
@@ -146,7 +140,7 @@ def upui():
     upmsg.pack(fill="both", expand=True)
     
 upuib = tk.Button(btns, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Unlocked Parts", command=upui)
-upuib.pack(side="top")
+upuib.pack(side="left", padx=10)
 
 def startnode():
     global upvar
