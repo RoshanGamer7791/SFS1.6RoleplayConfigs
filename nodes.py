@@ -9,13 +9,13 @@ upvar = tk.StringVar(value="Unlocked Parts:")
 canvas = tk.Canvas(root, bg="black", borderwidth=0)
 sb = tk.Scrollbar(root, orient="horizontal", command=canvas.xview, bg="black", troughcolor="white", width=10)
 canvas.configure(xscrollcommand=sb.set)
-sb.pack(side="bottom", fill="x", expand=True)
-canvas.pack(side="top", fill="both", expand=True)
+sb.grid(row=200, sticky="ew")
+canvas.grid(sticky="nsew")
 ttn = tk.Frame(canvas, bg="black")
 windowid = canvas.create_window((0, 0), window=ttn, anchor="nw")
 
 rpcounter = tk.Label(ttn, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
-rpcounter.pack(side="top")
+rpcounter.grid(row=0, column=0)
 
 def rp_changer():
     rpcw = tk.Toplevel(root)
@@ -129,7 +129,7 @@ def rp_changer():
     remove500b.pack(side="top", fill="x")
 
 rpbutton = tk.Button(ttn, text="Research Points Changer", bg="black", fg="white", font=("Segoe UI", 15, "bold"), command=rp_changer)
-rpbutton.pack(side="top", padx=10)
+rpbutton.grid(row=0, column=1)
 
 def upui():
     upuiwin = tk.Toplevel(root, bg="black")
@@ -139,7 +139,7 @@ def upui():
     upmsg.pack(fill="both", expand=True)
     
 upuib = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Unlocked Parts", command=upui)
-upuib.pack(side="top")
+upuib.grid(row=0, column=2)
 
 def startnode():
     global upvar
@@ -154,8 +154,7 @@ def startnode():
         return
     
 startb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Start", command=startnode)
-startb.pack(side="left", pady=200)
-
+startb.grid(row=50, column=0)
 def seperators():
     global upvar, researchpoints
     current = upvar.get()
@@ -178,7 +177,7 @@ def seperators():
         return
     
 seperatorsb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Seperators", command=seperators)
-seperatorsb.pack(side="left", padx=20, pady=200)
+seperatorsb.grid(row=50, column=5)
 
 def general_rocketry():
     global upvar, researchpoints
@@ -202,7 +201,7 @@ def general_rocketry():
         return
     
 general_rocketryb = tk.Button (ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="General Rocketry", command=general_rocketry)
-general_rocketryb.pack(side="left", padx=30, pady=200)
+general_rocketryb.grid(row=50, column=10)
 
 def advanced_rocketry():
     global upvar, researchpoints
@@ -226,4 +225,4 @@ def advanced_rocketry():
         return
     
 advanced_rocketryb = tk.Button(ttn, bg="black", fg="white", font=("Segoe UI", 15, "bold"), text="Advanced Rocketry", command=advanced_rocketry)
-advanced_rocketryb.pack(side="left", padx=40, pady=200)
+advanced_rocketryb.grid(row=50, column=15)
