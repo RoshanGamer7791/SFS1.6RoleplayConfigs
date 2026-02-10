@@ -61,7 +61,7 @@ def rp_changer():
         global researchpoints
         researchpoints -= 1
         rpcounter.config(text=f"Research Points: {researchpoints}")
-        if researchpoints <= 0:
+        if researchpoints <= -1:
             researchpoints += 1
             rpcounter.config(text=f"Research Points: {researchpoints}")
             messagebox.showerror(
@@ -74,7 +74,7 @@ def rp_changer():
         global researchpoints
         researchpoints -= 10
         rpcounter.config(text=f"Research Points: {researchpoints}")
-        if researchpoints <= 0:
+        if researchpoints <= -1:
             researchpoints += 10
             rpcounter.config(text=f"Research Points: {researchpoints}")
             messagebox.showerror(
@@ -87,7 +87,7 @@ def rp_changer():
         global researchpoints
         researchpoints -= 100
         rpcounter.config(text=f"Research Points: {researchpoints}")
-        if researchpoints <= 0:
+        if researchpoints <= -1:
             researchpoints += 100
             rpcounter.config(text=f"Research Points: {researchpoints}")
             messagebox.showerror(
@@ -100,7 +100,7 @@ def rp_changer():
         global researchpoints
         researchpoints -= 250
         rpcounter.config(text=f"Research Points: {researchpoints}")
-        if researchpoints <= 0:
+        if researchpoints <= -1:
             researchpoints += 250
             rpcounter.config(text=f"Research Points: {researchpoints}")
             messagebox.showerror(
@@ -113,7 +113,7 @@ def rp_changer():
         global researchpoints
         researchpoints -= 500
         rpcounter.config(text=f"Research Points: {researchpoints}")
-        if researchpoints <= 0:
+        if researchpoints <= -1:
             researchpoints += 500
             rpcounter.config(text=f"Research Points: {researchpoints}")
             messagebox.showerror(
@@ -174,7 +174,7 @@ def seperators():
             message="You already unlocked this node"
         )
         return
-    if researchpoints <= 0:
+    if researchpoints <= -1:
         researchpoints += 10
         rpcounter.config(text=f"Research Points: {researchpoints}")
         messagebox.showerror(
@@ -199,7 +199,7 @@ def general_rocketry():
             message="You already unlocked this node"
         )
         return
-    if researchpoints <= 0:
+    if researchpoints <= -1:
         researchpoints += 45
         rpcounter.config(text=f"Research Points: {researchpoints}")
         messagebox.showerror(
@@ -224,7 +224,7 @@ def advanced_rocketry():
             message="You already unlocked this node"
         )
         return
-    if researchpoints <= 0:
+    if researchpoints <= -1:
         researchpoints += 90
         rpcounter.config(text=f"Research Points: {researchpoints}")
         messagebox.showerror(
