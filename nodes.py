@@ -9,7 +9,7 @@ upvar = tk.StringVar(value="Unlocked Parts:")
 btns = tk.Frame(root, bg="black")
 btns.grid(sticky="ew")
 ttnp1 = tk.Frame(root, bg="black")
-ttnp1.grid(sticky="nsew")
+ttnp1.grid(sticky="nsew", row=50, column=0)
 
 
 rpcounter = tk.Label(btns, text=f"Research Points: {researchpoints}", bg="black", fg="white", font=("Segoe UI", 15, "bold"))
