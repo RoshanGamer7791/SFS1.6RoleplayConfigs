@@ -4,7 +4,7 @@ The configs of the SFS 1.6 roleplay.
 ## Links
 
 Forum thread: [1.6 roleplay](https://jmnet.one/sfs/forum/index.php?threads/1-6-roleplay.16954/)  
-Discord Server: [The Space Flight Simulator Forumers](https://discord.gg/ZnzxsBcbhJ) 
+Discord Server: [The Space Flight Simulator Forumers](https://discord.gg/ZnzxsBcbhJ)    
 Website: [SFS 1.6 RP](https://sfsnewrp.w3spaces.com/)
 
 ## Credits
