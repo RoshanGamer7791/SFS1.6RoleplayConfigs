@@ -552,6 +552,10 @@
         {
             "event": "Cubesat 'crumb' deployed in Low Earth Orbit",
             "who": "Red Cosmos"
+        },
+        {
+            "event": "The AAS launches their first satellite in a earth transfer orbit",
+            "who": "Andromeda Aerospace Services"
         }
     ]
 }
