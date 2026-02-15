@@ -564,6 +564,10 @@
         {
             "event": "3 communications satellites launched into LEO/eccentric/HEO Lunar orbit",
             "who": "New Dawn Engineering & Aerospace"
+        },
+        {
+            "event": "The AAS launches their first satellite in a High earth orbit",
+            "who": "Andromeda Aerospace Services"
         }
     ]
 }
