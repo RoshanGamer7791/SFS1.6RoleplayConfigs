@@ -556,6 +556,14 @@
         {
             "event": "The AAS launches their first satellite in a earth transfer orbit",
             "who": "Andromeda Aerospace Services"
+        },
+        {
+            "event": "IRIS satellite launched into HEO",
+            "who": "New Dawn Engineering & Aerospace"
+        },
+        {
+            "event": "3 communications satellites launched into LEO/eccentric/HEO Lunar orbit",
+            "who": "New Dawn Engineering & Aerospace"
         }
     ]
 }
