@@ -568,6 +568,10 @@
         {
             "event": "The AAS launches their first satellite in a High earth orbit",
             "who": "Andromeda Aerospace Services"
+        },
+        {
+            "event": "SR Suborbital Missile - First suborbital launch for IASD.",
+            "who": "IASD"
         }
     ]
 }
