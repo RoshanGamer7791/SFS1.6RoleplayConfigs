@@ -89,14 +89,6 @@
             "comms": "Normal Comms"
         },        
         {
-            "name": "Valruzian Aeronautics and Space Agency (VASA)",
-            "owner": "serap49",
-            "type": "Government",
-            "prestige": "0",
-            "status": "Active",
-            "comms": "Normal Comms"
-        },
-        {
             "name": "New Dawn Engineering & Aerospace",
             "owner": "SadCashier20",
             "type": "Private",
@@ -161,8 +153,8 @@
             "comms": "normal comms"
         },
         {
-            "name": "Ethan games YT",
-            "owner": "Ethan games YT",
+            "name": "ISAD",
+            "owner": "AarohantheAscender",
             "type": "Private",
             "prestige": "0",
             "status": "Active",
