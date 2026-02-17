@@ -32,7 +32,7 @@
 #### Advanced:
 
 - Space station: L80 | Redstar Aerospace | Year 2019
-  - Deep Space transport: L151 | Redstare Aerospace | Year 2037
+  - Deep Space transport: L151 | Redstar Aerospace | Year 2037
 - Base: L120 | Redstar Aerospace | Year 2029
 
 # Venus:
