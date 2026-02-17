@@ -93,7 +93,6 @@
             "who": "B.A.D.A.s.s"
         },
         {
-            "cachebreakplease": true,
             "event": "Prometheus 1",
             "who": "B.A.D.A.S.S"
         },
@@ -142,8 +141,36 @@
             "who": "Roshan Aerospace and Space Agency"
         },
         {
+            "event": "Crewed Moon Flyby",
+            "who": "Roshan Aerospace and Space Agency"
+        },
+        {
+            "event": "Crewed Moon Orbit",
+            "who": "Roshan Aerospace and Space Agency"
+        },
+        {
             "event": "First Crewed Lunar Landing!",
             "who": "B.A.D.A.S.S"
+        },
+        {
+            "LaunchNumber": "36",
+            "event": "Established Lunar Comms",
+            "who": "Roshan Aerospace and Space Agency",
+            "year": "2009"
+        },
+        {
+            "LaunchNumber": "37",
+            "event": "1st module of an orbital station",
+            "who": "Untitled Aerospace Agency",
+            "year": "2009"
+        },
+        {
+            "event": "Researched Ion Engines",
+            "who": "Roshan Aerospace and Space Agency"
+        },
+        {
+            "event": "Landed Rover on the Moon",
+            "who": "Roshan Aerospace and Space Agency"
         },
         {
             "event": "1st module of an orbital station",
