@@ -556,7 +556,7 @@
         {
             "event": "The AAS launches their first satellite in a earth transfer orbit",
             "who": "Andromeda Aerospace Services"
-        },
+        },qua
         {
             "event": "IRIS satellite launched into HEO",
             "who": "New Dawn Engineering & Aerospace"
@@ -572,6 +572,10 @@
         {
             "event": "SR Suborbital Missile - First suborbital launch for IASD.",
             "who": "IASD"
+        },
+        {
+            "event": "The AAS launches their second comms satellite in a HEO and develops lunar grade comms",
+            "who": "Andromeda Aerospace Services"
         }
     ]
 }
