@@ -603,6 +603,10 @@
         {
             "event": "The AAS launches their second comms satellite in a HEO and develops lunar grade comms",
             "who": "Andromeda Aerospace Services"
+        },
+        {
+            "event": "Moongate launches the DST and docks it to the moongate station.",
+            "who": "Redstar Aerospace"
         }
     ]
 }
