@@ -607,6 +607,10 @@
         {
             "event": "Moongate launches the DST and docks it to the moongate station.",
             "who": "Redstar Aerospace"
+        },
+        {
+            "event": "BURGER STATION IS LAUNCHED INTO HEO!!!",
+            "who": "New Dawn Engineering & Aerospace"
         }
     ]
 }
