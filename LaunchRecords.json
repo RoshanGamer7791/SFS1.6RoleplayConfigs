@@ -153,16 +153,12 @@
             "who": "B.A.D.A.S.S"
         },
         {
-            "LaunchNumber": "36",
             "event": "Established Lunar Comms",
-            "who": "Roshan Aerospace and Space Agency",
-            "year": "2009"
+            "who": "Roshan Aerospace and Space Agency"
         },
         {
-            "LaunchNumber": "37",
             "event": "1st module of an orbital station",
-            "who": "Untitled Aerospace Agency",
-            "year": "2009"
+            "who": "Untitled Aerospace Agency"
         },
         {
             "event": "Researched Ion Engines",
