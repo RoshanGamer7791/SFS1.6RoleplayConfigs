@@ -611,6 +611,10 @@
         {
             "event": "Docking module added to Burger Station",
             "who": "New Dawn Engineering & Aerospace"
+        },
+        {
+            "event": "Propulsion module added to Burger Station",
+            "who": "New Dawn Engineering & Aerospace"
         }
     ]
 }
