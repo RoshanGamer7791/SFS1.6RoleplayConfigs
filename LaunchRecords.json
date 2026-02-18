@@ -623,6 +623,10 @@
         {
             "event": "RASA Mungate Mission 1 | Crane Launch and Docking with Moongate",
             "who": "Roshan Aerospace and Space Agency"
+        },
+        {
+            "event": "RASA Moon Colony Mission",
+            "who": "Roshan Aerospace and Space Agency"
         }
     ]
 }
