@@ -615,6 +615,14 @@
         {
             "event": "Propulsion module added to Burger Station",
             "who": "New Dawn Engineering & Aerospace"
+        },
+        {
+            "event": "RASA Mungate Mission 1 | Mobile Processing Lab Launch",
+            "who": "Roshan Aerospace and Space Agency"
+        },
+        {
+            "event": "RASA Mungate Mission 1 | Crane Launch and Docking with Moongate",
+            "who": "Roshan Aerospace and Space Agency"
         }
     ]
 }
