@@ -627,6 +627,10 @@
         {
             "event": "RASA Moon Colony Mission",
             "who": "Roshan Aerospace and Space Agency"
+        },
+        {
+            "event": "Science module added to Burger Station",
+            "who": "New Dawn Engineering & Aerospace"
         }
     ]
 }
