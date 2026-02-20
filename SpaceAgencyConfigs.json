@@ -151,6 +151,14 @@
             "prestige": "0",
             "status": "Active",
             "comms": "normal comms"
+        },
+        {
+            "name": "Space Star Lift?",
+            "owner": "fans VerdiX",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "normal comms"
         }
     ]
 }
