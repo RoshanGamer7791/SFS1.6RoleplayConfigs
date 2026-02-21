@@ -159,6 +159,14 @@
             "prestige": "0",
             "status": "Active",
             "comms": "normal comms"
+        },
+        {
+            "name": "Marston Space Exploration and Research Industries (MSERI)",
+            "owner": "Andromeda25",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active":
+            "comms": "normal comms"
         }
     ]
 }
