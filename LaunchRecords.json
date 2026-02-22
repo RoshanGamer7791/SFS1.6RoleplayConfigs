@@ -647,6 +647,10 @@
         {
             "event": "Comms module added to Burger Station",
             "who": "New Dawn Engineering & Aerospace"
+        },
+        {
+            "event": "FL Solar module added to Burger Station",
+            "who": "New Dawn Engineering & Aerospace"
         }
     ]
 }
