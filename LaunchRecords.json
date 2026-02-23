@@ -655,6 +655,14 @@
         {
             "event": "RASA Interplanetary Comms Launch",
             "who": "Roshan Aerospace and Space Agency"
+        },
+        {
+            "event": "Ion research module added to Burger Station",
+            "who": "New Dawn Engineering & Aerospace"
+        },
+          {
+            "event": "Diana LES test, boilerplate",
+            "who": "New Dawn Engineering & Aerospace"
         }
     ]
 }
