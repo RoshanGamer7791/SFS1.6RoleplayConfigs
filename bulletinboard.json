@@ -1,7 +1,7 @@
 {
   "Invites Locked!": {
     "text": "Season 1 of the RP is coming to a end in a week or two. If you want to join, you can join in a couple of weeks. This is so that someone's aerospace career wouldn't end in just a few days after they join.",
-    "status": "Warning"
+    "status": "Danger"
   },
   "New styles!": {
     "text": "New CSS styles have been added so it looks better then before! I do have a backup of the old site.",
