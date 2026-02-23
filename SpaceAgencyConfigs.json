@@ -70,7 +70,7 @@
             "type": "Private",
             "prestige": "3",
             "status": "Active",
-            "comms": "Interplanatary Comms [Entry]"
+            "comms": "Interplanetary Comms [Entry]"
         },
         {
             "name": "Roshan Aerospace and Space Agency (RASA)",
@@ -78,7 +78,7 @@
             "type": "Private",
             "prestige": "0",
             "status": "Active",
-            "comms": "Lunar Grade"
+            "comms": "Interplanetary Comms [Entry]"
         },   
         {
             "name": "New Dawn Engineering & Aerospace",

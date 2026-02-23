@@ -651,6 +651,10 @@
         {
             "event": "FL Solar module added to Burger Station",
             "who": "New Dawn Engineering & Aerospace"
+        },
+        {
+            "event": "RASA Interplanetary Comms Launch",
+            "who": "Roshan Aerospace and Space Agency"
         }
     ]
 }
