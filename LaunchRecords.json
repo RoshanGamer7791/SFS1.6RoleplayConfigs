@@ -660,9 +660,13 @@
             "event": "Ion research module added to Burger Station",
             "who": "New Dawn Engineering & Aerospace"
         },
-          {
+        {
             "event": "Diana LES test, boilerplate",
             "who": "New Dawn Engineering & Aerospace"
+        },
+        {
+            "event": "RASA Moon Base Habitation Module Launch",
+            "who": "Roshan Aerospace and Space Agency"
         }
     ]
 }
