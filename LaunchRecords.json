@@ -667,6 +667,10 @@
         {
             "event": "RASA Moon Base Habitation Module Launch",
             "who": "Roshan Aerospace and Space Agency"
+        },
+        {
+            "event": "Trailblazer 1 | First mars flyby for Redstar Aerospace",
+            "who": "Redstar Aerospace"
         }
     ]
 }
