@@ -13,8 +13,8 @@
             "who": "Redstar Aerospace"
         },
         {
-            "event": "First orbit for SCF",
-            "who": "SCF"
+            "event": "First orbit for Astronautica",
+            "who": "Astronautica"
         },
         {
             "event": "First suborbital manned flight",
@@ -42,11 +42,11 @@
         },
         {
             "event": "First interplanetary mission; First interplanetary mission to Venus",
-            "who": "SCF"
+            "who": "Astronautica"
         },
         {
             "event": "First suborbital manned flight",
-            "who": "SCF"
+            "who": "Astronautica"
         },
         {
             "event": "Crewed orbital mission (Poronim-3)",
@@ -70,7 +70,7 @@
         },
         {
             "event": "First flyby and orbit of a captured asteroid",
-            "who": "SCF"
+            "who": "Astronautica"
         },
         {
             "event": "First probe return to Earth; First orbit for B.A.D.A.S.S.",
