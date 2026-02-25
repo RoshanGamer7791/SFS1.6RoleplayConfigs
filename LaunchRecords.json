@@ -671,6 +671,10 @@
         {
             "event": "Trailblazer 1 | First mars flyby for Redstar Aerospace",
             "who": "Redstar Aerospace"
+        },
+        {
+            "event": "Trailblazer 2 | First Ceres flyby ever",
+            "who": "Redstar Aerospace"
         }
     ]
 }
