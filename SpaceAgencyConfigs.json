@@ -12,7 +12,7 @@
             "name": "Untitled Aerospace Agency",
             "owner": "ilikespace",
             "type": "Private",
-            "prestige": "13",
+            "prestige": "14",
             "status": "Active",
             "comms": "Interplanetary Comms [Entry]"
         },
@@ -44,7 +44,7 @@
             "name": "Astronautica",
             "owner": "J3 Mângo",
             "type": "Private",
-            "prestige": "4.25",
+            "prestige": "2",
             "status": "Inactive",
             "comms": "Interplanetary Comms [Entry]"
         },
@@ -52,8 +52,8 @@
             "name": "B.A.D.A.S.S.",
             "owner": "TheMacTester",
             "type": "Private",
-            "prestige": "11",
-            "status": "Inactive",
+            "prestige": "6",
+            "status": "Bankrupt",
             "comms": "Interplanetary Comms [Entry]"
         },
         {
