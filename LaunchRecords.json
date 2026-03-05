@@ -675,6 +675,10 @@
         {
             "event": "Trailblazer 2 | First Ceres flyby ever",
             "who": "Redstar Aerospace"
+        },
+        {
+            "event": "Diana unmanned orbital test on Shrimpy workhorse rocket",
+            "who": "New Dawn Engineering & Aerospace"
         }
     ]
 }
