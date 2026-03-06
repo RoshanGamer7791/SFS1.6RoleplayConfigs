@@ -679,6 +679,10 @@
         {
             "event": "Diana unmanned orbital test on Shrimpy workhorse rocket",
             "who": "New Dawn Engineering & Aerospace"
+        },
+        {
+            "event": "Diana manned orbital test on Shrimpy workhorse rocket to prove crew can maintain health with many supplies",
+            "who": "New Dawn Engineering & Aerospace"
         }
     ]
 }
