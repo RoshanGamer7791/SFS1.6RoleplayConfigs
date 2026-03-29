@@ -167,6 +167,14 @@
             "prestige": "0",
             "status": "Active",
             "comms": "normal comms"
+        },
+        {
+            "name": "Zeus Space Agency",
+            "owner": "Asier_Diamond",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
         }
     ]
 }
