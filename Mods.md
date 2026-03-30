@@ -1,6 +1,18 @@
-# Mods  
+# Mods  (OPTIONAL)
 
-None we have mobile players
+ANAIS  
+Delta-V Calculator  
+Stages Expanded  
+Action Groups Mod  
+Smart SAS  
+Aero Trajectory  
+Vanilla Upgrades  
+Part Editor  
+Hyperwarp  
+Thrust Assist Mod  
+Part Text  
+Info Overload  
+Random Failures Legacy  
   
 # Custom Parts  
 
