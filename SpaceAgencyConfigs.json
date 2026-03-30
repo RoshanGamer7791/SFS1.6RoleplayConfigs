@@ -183,6 +183,14 @@
             "prestige": "0",
             "status": "Active",
             "comms": "Normal Comms"
+        },
+        {
+            "name": "Goose Air and Space",
+            "owner": "A canadian gooser",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
         }
     ]
 }
