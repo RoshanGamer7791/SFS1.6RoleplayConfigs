@@ -3,8 +3,11 @@ The configs of the SFS 1.6 roleplay.
 
 ## Links
 Discord Server: [New Genisis](https://discord.gg/ZnzxsBcbhJ)
+
 Forum Thread: [1.6 roleplay](https://jmnet.one/sfs/forum/index.php?threads/sfs-1-6-roleplay-season-1-revived.18134/)
-Old Forum thread: [1.6 roleplay](https://jmnet.one/sfs/forum/index.php?threads/1-6-roleplay.16954/)  
+
+Old Forum thread: [1.6 roleplay](https://jmnet.one/sfs/forum/index.php?threads/1-6-roleplay.16954/)
+
 Website: [SFS 1.6 RP](https://sfsnewrp.w3spaces.com/)
 
 ## Credits
