@@ -12,7 +12,8 @@ Website: [SFS 1.6 RP](https://sfsnewrp.w3spaces.com/)
 
 ## Credits
 * Roshan (For making the base to be building ontop of)
-* ssdcat (For allowing Roshan to do this)
+* ilikespace (For helping manage the RP)
+* ssdcat (For allowing Roshan to do this and making the website)
 
 ## Contributors
 * ilikespace
