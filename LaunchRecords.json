@@ -683,6 +683,14 @@
         {
             "event": "Diana manned orbital test on Shrimpy workhorse rocket to prove crew can maintain health with many supplies",
             "who": "New Dawn Engineering & Aerospace"
+        },
+        {
+            "event": "First Mars flyby for SSAI",
+            "who": "SSAAI"
+        },
+        {
+            "event": "Archemides II Test Flight",
+            "who": "Roshan Aerospace and Space Agency"
         }
     ]
 }
