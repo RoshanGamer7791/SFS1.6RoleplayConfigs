@@ -689,12 +689,20 @@
             "who": "Aerolox Industries"
         },
         {
-            "event": "First Mars flyby for SSAI",
+            "event": "First Mars flyby for SSAAI",
             "who": "SSAAI"
         },
         {
             "event": "Archemides II Test Flight",
             "who": "Roshan Aerospace and Space Agency"
+        },
+        {
+            "event": "First Lunar Landing for SSAAI",
+            "who": "SSAAI"
+        },
+        {
+            "event": "Aleph-XS launch",
+            "who": "Aerolox Industries"
         }
     ]
 }
