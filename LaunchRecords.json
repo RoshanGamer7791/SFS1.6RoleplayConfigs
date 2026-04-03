@@ -703,6 +703,18 @@
         {
             "event": "Aleph-XS launch",
             "who": "Aerolox Industries"
+        },
+        {
+            "event": "First Manned Suborbital for Aerolox Industries",
+            "who": "Aerolox Industries"
+        },
+        {
+            "event": "New Dawn Engineering & Aerospace comms launch",
+            "who": "New Dawn Engineering and Aerospace"
+        },
+        {
+            "event": "Lunar Comms for Aerolox Industries",
+            "who": "Aerolox Industries"
         }
     ]
 }
