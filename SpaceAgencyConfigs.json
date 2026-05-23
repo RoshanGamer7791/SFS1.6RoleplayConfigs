@@ -199,6 +199,22 @@
             "prestige": "0",
             "status": "Active",
             "comms": "Normal Comms"
+        },
+        {
+            "name": "Jebs Rocket and Co",
+            "owner": "Jebidiah Kerman",
+            "type": "Government",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal Comms"
+        },
+        {
+            "name": "Cat Space Agency",
+            "owner": "Idk1",
+            "type": "Private",
+            "prestige": "0",
+            "status": "Active",
+            "comms": "Normal comms"
         }
     ]
 }
